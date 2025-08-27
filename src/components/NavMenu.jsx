@@ -3,6 +3,9 @@ import { Menu } from "lucide-react";
 import { X } from "lucide-react";
 import Logo from "../assets/logo.png";
 import { ChevronDown } from "lucide-react";
+import { Link } from "react-router";
+import About from "../pages/About";
+
 
 const NavMenu = () => {
   const [open, setOpen] = useState(false);
@@ -149,16 +152,16 @@ const NavMenu = () => {
                 {/* Dropdown Menu */}
                 <ul className="absolute left-0 top-full mt-2 hidden group-hover:block bg-white text-black rounded-md shadow-lg w-40">
                   <li className="px-4 py-2 hover:bg-blue-100 cursor-pointer">
-                    Class 1
+                     Practical Life
                   </li>
                   <li className="px-4 py-2 hover:bg-blue-100 cursor-pointer">
-                    Class 2
+                    Sensorial
                   </li>
                   <li className="px-4 py-2 hover:bg-blue-100 cursor-pointer">
-                    Class 3
+                    Language
                   </li>
                   <li className="px-4 py-2 hover:bg-blue-100 cursor-pointer">
-                    Class 4
+                    Mathematics
                   </li>
                 </ul>
               </li>

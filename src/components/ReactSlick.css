@@ -1,0 +1,99 @@
+.slider-1 {
+  background: linear-gradient(
+      360deg,
+      /* 👈 rotate the gradient angle */ rgba(1, 6, 18, 0.759),
+      rgba(255, 255, 255, 0.1)
+    ),
+    url("../assets/students.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100dvw;
+  height: 100dvh;
+}
+.slider-2 {
+  background: linear-gradient(
+      360deg,
+      /* 👈 rotate the gradient angle */ rgba(1, 6, 18, 0.759),
+      rgba(255, 255, 255, 0.1)
+    ),url(../assets/kids-school.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100dvw;
+  height: 100dvh;
+}
+.slider-3 {
+  background: linear-gradient(
+      360deg,
+      /* 👈 rotate the gradient angle */ rgba(1, 6, 18, 0.759),
+      rgba(255, 255, 255, 0.1)
+    ),url(../assets/preschool.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100dvw;
+  height: 100dvh;
+}
+.slick-next {
+  right: 4%;
+}
+.slick-prev {
+  left: 4%;
+  z-index: 1;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-family: fangsong;
+  font-size: 49px;
+  line-height: 1;
+  opacity: 1;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slick-prev {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 90%;
+  left: 90%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 90%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+@media (max-width: 768px) {
+  .slick-prev:before,
+  .slick-next:before {
+    display: none;
+  }
+}
