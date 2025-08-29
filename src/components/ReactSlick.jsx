@@ -25,7 +25,7 @@ export default function SimpleSlider() {
         </div>
       </div>
       <div>
-        <div className="slider-2">
+        <div className="slider-2 cursor-grab">
            <div className="slider-txt relative top-1/2 left-5">
             <p className="text-white text-2xl">Welcome to</p>
             <h6 className="text-white md:text-5xl text-4xl py-2 font-semibold">
@@ -35,7 +35,7 @@ export default function SimpleSlider() {
         </div>
       </div>
       <div>
-        <div className="slider-3">
+        <div className="slider-3 cursor-grab">
            <div className="slider-txt relative top-1/2 left-5">
             <p className="text-white text-2xl">Welcome to</p>
             <h6 className="text-white md:text-5xl text-4xl py-2 font-semibold">

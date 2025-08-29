@@ -7,7 +7,6 @@ const Header = () => {
   return (
     <header>
       <ReactSlick />
-
       <NavMenu className="w-full" />
     </header>
   );
