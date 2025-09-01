@@ -11,6 +11,7 @@ import ScrollVelocity from "../components/ScrollVelocity";
 import SchoolBg from "../assets/school-image.jpg";
 import FallingText from "../components/FallingText";
 import EducationImg from "../assets/school.png";
+import PopupForm from "../components/PopupForm";
 
 const Home = () => {
   // Get scroll progress
@@ -228,6 +229,9 @@ const Home = () => {
       </div>
 
       <Footer />
+
+      {/* popup form */}
+      <PopupForm/>
     </>
   );
 };

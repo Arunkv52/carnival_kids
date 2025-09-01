@@ -14,10 +14,12 @@ const Footer = () => {
             </h6>
           </div>
           <div className="ftop-2 md:w-[25%] w-full text-end md:pt-0 pt-10">
-            <button className="bg-black text-white py-4 rounded-[50px] flex items-center gap-4 px-10 text-[20px]">
-              Connect with us{" "}
-              <MoveUpRight className="bg-[#48a8df] rounded-[50px] p-1 md:w-10 w-7 md:h-10 h-7 hover:translate-x-6 transition-all" />
-            </button>
+            <Link to={"/contact"}>
+              <button className="bg-black text-white py-4 rounded-[50px] flex items-center gap-4 px-10 text-[20px] cursor-pointer">
+                Connect with us{" "}
+                <MoveUpRight className="bg-[#48a8df] rounded-[50px] p-1 md:w-10 w-7 md:h-10 h-7 hover:translate-x-6 transition-all" />
+              </button>
+            </Link>
           </div>
         </div>
         <div className="footer-bottom md:pt-20 pt-10 md:flex flex flex-wrap justify-between">
@@ -31,11 +33,11 @@ const Footer = () => {
           </div>
           <div className="fb-2 md:w-1/4 w-full ">
             <ul className="text-white text-[20px] md:flex flex-col">
-              <Link to={'/about'}>About</Link>
-              <Link to={'/curriculam'}>Curriculam</Link>
-              <Link to={'/services'}>Services</Link>
-              <Link to={'/gallery'}>Gallery</Link>
-              <Link to={'/contact'}>Contact</Link>
+              <Link to={"/about"}>About</Link>
+              <Link to={"/curriculam"}>Curriculam</Link>
+              <Link to={"/services"}>Services</Link>
+              <Link to={"/gallery"}>Gallery</Link>
+              <Link to={"/contact"}>Contact</Link>
             </ul>
           </div>
           <div className="fb-3 md:w-1/4 w-full md:pt-0 pt-10">
@@ -48,15 +50,20 @@ const Footer = () => {
             </ul>
             <ul className="text-white text-[20px] md:pt-0 pt-3">
               <li className="font-semibold py-2">Contact</li>
-              <li className="text-[16px] text-white/80">Mobile : +91 98566 11111</li>
-              <li className="text-[16px] text-white/80">Telephone : 0422-298546 </li>
-              <li className="text-[16px] text-white/80">Email : info@carnivalkids.com </li>
+              <li className="text-[16px] text-white/80">
+                Mobile : +91 98566 11111
+              </li>
+              <li className="text-[16px] text-white/80">
+                Telephone : 0422-298546{" "}
+              </li>
+              <li className="text-[16px] text-white/80">
+                Email : info@carnivalkids.com{" "}
+              </li>
             </ul>
           </div>
-         
         </div>
         <div className="copy-right text-white/50 text-[14px] md:pt-0 pt-10">
-            <p>© 2025 - Carnival Kids Developed by Prism Adverto</p>
+          <p>© 2025 - Carnival Kids Developed by Prism Adverto</p>
         </div>
       </footer>
     </>

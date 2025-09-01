@@ -2,11 +2,12 @@ import React from "react";
 import FramerStacking from "../components/FramerStacking";
 import AboutBg from "../assets/people-smile.webp";
 import NavMenu from "../components/NavMenu";
+import PopupForm from "../components/PopupForm";
 
 const Curriculam = () => {
   return (
     <>
-     
+     <PopupForm />
       <div
         className="abt-main w-full"
         style={{

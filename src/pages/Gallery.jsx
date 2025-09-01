@@ -3,11 +3,13 @@ import DomeGallery from "../components/DemoGallery";
 import NavMenu from "../components/NavMenu";
 import Footer from "../components/Footer";
 import AboutBg from "../assets/people-smile.webp";
+import PopupForm from "../components/PopupForm";
 
 
 const Gallery = () => {
   return (
     <>
+    <PopupForm/>
       <NavMenu />
       <div
         className="abt-main w-full"

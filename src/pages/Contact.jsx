@@ -2,10 +2,12 @@ import React from "react";
 import ContactBG from "../assets/campus-school.jpeg";
 import NavMenu from "../components/NavMenu";
 import Footer from "../components/Footer";
+import PopupForm from "../components/PopupForm";
 
 const Contact = () => {
   return (
     <>
+    <PopupForm/>
       <div
         className="abt-main w-full"
         style={{

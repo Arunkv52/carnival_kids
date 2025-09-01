@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import abtImage from "../assets/kids-happy.jpeg";
 import Footer from "../components/Footer";
 import Ami from "../assets/Ami.png";
+import PopupForm from "../components/PopupForm";
 
 const About = () => {
   return (
@@ -192,6 +193,7 @@ const About = () => {
 
       {/* Footer start */}
       <Footer />
+      <PopupForm/>
     </>
   );
 };
