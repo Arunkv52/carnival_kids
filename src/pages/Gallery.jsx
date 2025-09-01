@@ -1,26 +1,29 @@
 import React from "react";
-import ScrollStack, { ScrollStackItem } from "../components/ScrollStackItem";
+import DomeGallery from "../components/DemoGallery";
+import NavMenu from "../components/NavMenu";
+import Footer from "../components/Footer";
+import AboutBg from "../assets/people-smile.webp";
 
 
 const Gallery = () => {
   return (
     <>
-      <ScrollStack>
-        <ScrollStackItem>
-          <h2>Card 1</h2>
-          <p>This is the first card in the stack</p>
-        </ScrollStackItem>
-        <ScrollStackItem>
-          <h2>Card 2</h2>
-          <p>This is the second card in the stack</p>
-        </ScrollStackItem>
-        <ScrollStackItem>
-          <h2>Card 3</h2>
-          <p>This is the third card in the stack</p>
-        </ScrollStackItem>
-      </ScrollStack>
-
-      
+      <NavMenu />
+      <div
+        className="abt-main w-full"
+        style={{
+          backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${AboutBg})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <NavMenu />
+        <h2 className="text-white text-4xl font-semibold pt-90 px-5">Gallery</h2>
+      </div>
+      <div className="max-w-full" style={{ width: "100dvw", height: "100vh" }}>
+        <DomeGallery />
+      </div>
+      <Footer />
     </>
   );
 };

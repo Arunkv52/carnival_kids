@@ -91,7 +91,7 @@ const Home = () => {
           </div>
           <div>
             <h1 className="md:text-6xl text-3xl md:pb-10 pb-0">
-              positive choice-making with a special emphasis on empathy.
+              Positive Choice-making With a Special Emphasis on Empathy.
             </h1>
           </div>
         </div>
@@ -223,7 +223,7 @@ const Home = () => {
       </div>
 
       {/* Text Fallen */}
-      <div className=" text-black md:px-10 px-2 md:py-20 py-10">
+      <div className=" text-black md:px-10 px-2 md:py-20 py-10 cursor-grab">
         <FallingText />
       </div>
 

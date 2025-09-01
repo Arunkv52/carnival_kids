@@ -1,5 +1,6 @@
 import React from "react";
 import { MoveUpRight } from "lucide-react";
+import { Link } from "react-router";
 
 const Footer = () => {
   return (
@@ -29,12 +30,12 @@ const Footer = () => {
             </ul>
           </div>
           <div className="fb-2 md:w-1/4 w-full ">
-            <ul className="text-white text-[20px]">
-              <li>About</li>
-              <li>Curriculam</li>
-              <li>Services</li>
-              <li>Gallery</li>
-              <li>Contact</li>
+            <ul className="text-white text-[20px] md:flex flex-col">
+              <Link to={'/about'}>About</Link>
+              <Link to={'/curriculam'}>Curriculam</Link>
+              <Link to={'/services'}>Services</Link>
+              <Link to={'/gallery'}>Gallery</Link>
+              <Link to={'/contact'}>Contact</Link>
             </ul>
           </div>
           <div className="fb-3 md:w-1/4 w-full md:pt-0 pt-10">

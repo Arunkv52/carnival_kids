@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import abtImage from "../assets/kids-happy.jpeg";
 import Footer from "../components/Footer";
 import Ami from "../assets/Ami.png";
-import { ScrollStackItem } from "../components/ScrollStackItem";
 
 const About = () => {
   return (
@@ -131,17 +130,65 @@ const About = () => {
             Montessori Environment.
           </p>
 
-          <h5 className="text-white font-bold pt-10">AMI Certified Montessori Adult</h5>
-          <img src={Ami} alt="" className="w-[150px] pt-2"/>
+          <h5 className="text-white font-bold pt-10">
+            AMI Certified Montessori Adult
+          </h5>
+          <img src={Ami} alt="" className="w-[150px] pt-2" />
         </div>
       </div>
 
       {/* Logo */}
       <div className="md:flex flex-col justify-center">
-        <h1>hello</h1>
+        <h1 className="text-4xl px-50 py-20">
+          <motion.svg
+            width="100"
+            height="100"
+            viewBox="0 0 200 200"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            animate={{
+              y: [0, -20, 0], // moves up (-20px) and comes back down
+            }}
+            transition={{
+              duration: 2, // time for one full cycle
+              repeat: Infinity, // loop forever
+              ease: "easeInOut",
+            }}
+          >
+            {" "}
+            <g clip-path="url(#clip0_231_793)">
+              {" "}
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M50 0H200V50V150L150 200L150 50H0L50 0ZM0 165.067V100L65.067 100L0 165.067ZM100 200H35.7777L100 135.778L100 200Z"
+                fill="url(#paint0_linear_231_793)"
+              />{" "}
+            </g>{" "}
+            <defs>
+              {" "}
+              <linearGradient
+                id="paint0_linear_231_793"
+                x1="177"
+                y1="-9.23648e-06"
+                x2="39.5"
+                y2="152.5"
+                gradientUnits="userSpaceOnUse"
+              >
+                {" "}
+                <stop stop-color="#B0B9FF" />{" "}
+                <stop offset="1" stop-color="#E7E9FF" />{" "}
+              </linearGradient>{" "}
+              <clipPath id="clip0_231_793">
+                {" "}
+                <rect width="200" height="200" fill="white" />{" "}
+              </clipPath>{" "}
+            </defs>{" "}
+          </motion.svg>
+          Children are naturally interested in activities that are done in the
+          day to day living like sweeping, mopping or washing clothes etc
+        </h1>
       </div>
-
-      <ScrollStackItem/>
 
       {/* Footer start */}
       <Footer />
