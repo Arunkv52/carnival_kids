@@ -1,14 +1,13 @@
-import React from 'react'
+import React from "react";
 import NavMenu from "../components/NavMenu";
-import ScrollStack from '../components/scrollStack'
+import ScrollStack from "../components/scrollStack";
 import AboutBg from "../assets/people-smile.webp";
-import PopupForm from '../components/PopupForm';
-
+import PopupForm from "../components/PopupForm";
 
 const Services = () => {
   return (
-     <>
-     <PopupForm/>
+    <>
+      <PopupForm />
       <div
         className="abt-main w-full"
         style={{
@@ -18,14 +17,14 @@ const Services = () => {
         }}
       >
         <NavMenu />
-        <h2 className="text-white text-4xl font-semibold pt-90 px-5">Services</h2>
+        <h2 className="text-white text-4xl font-semibold pt-90 px-5">
+          Services
+        </h2>
       </div>
-      <NavMenu/>
-
+      <NavMenu />
       <ScrollStack />
-     
     </>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;

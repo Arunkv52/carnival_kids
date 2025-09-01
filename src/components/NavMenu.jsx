@@ -5,9 +5,6 @@ import Logo from "../assets/logo.png";
 import { ChevronDown } from "lucide-react";
 import { Link } from "react-router";
 
-
-
-
 const NavMenu = () => {
   const [open, setOpen] = useState(false);
   const [activeMenu, setActiveMenu] = useState(null);
@@ -21,12 +18,15 @@ const NavMenu = () => {
       <div className="flex items-center justify-between font-normal w-full py-2 bg-white/70 rounded-[50px] px-5 text-black relative">
         {/* Logo */}
         <div className="logo">
-          <img src={Logo} alt="Logo" className="w-[80px]" />
+          <Link to={'/'}>
+            <img src={Logo} alt="Logo" className="w-[80px]" />
+          </Link>
         </div>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex justify-start gap-8 text-[18px] hover:cursor-pointer">
-          <Link to={'/'}
+          <Link
+            to={"/"}
             className="relative cursor-pointer 
                after:absolute after:left-0 after:-bottom-1 
                after:h-[2px] after:w-0 after:bg-red-600
@@ -34,7 +34,8 @@ const NavMenu = () => {
           >
             Home
           </Link>
-          <Link to={'/about'}
+          <Link
+            to={"/about"}
             className="relative cursor-pointer 
                after:absolute after:left-0 after:-bottom-1 
                after:h-[2px] after:w-0 after:bg-red-600
@@ -42,9 +43,10 @@ const NavMenu = () => {
           >
             About
           </Link>
-        
+
           {/* Curriculum */}
-           <Link to={'/curriculam'}
+          <Link
+            to={"/curriculam"}
             className="relative cursor-pointer 
                after:absolute after:left-0 after:-bottom-1 
                after:h-[2px] after:w-0 after:bg-red-600
@@ -54,7 +56,8 @@ const NavMenu = () => {
           </Link>
 
           {/* Services */}
-           <Link to={'/services'}
+          <Link
+            to={"/services"}
             className="relative cursor-pointer 
                after:absolute after:left-0 after:-bottom-1 
                after:h-[2px] after:w-0 after:bg-red-600
@@ -63,7 +66,8 @@ const NavMenu = () => {
             Services
           </Link>
 
-          <Link to={'/gallery'}
+          <Link
+            to={"/gallery"}
             className="relative cursor-pointer 
                after:absolute after:left-0 after:-bottom-1 
                after:h-[2px] after:w-0 after:bg-red-600
@@ -71,7 +75,8 @@ const NavMenu = () => {
           >
             Gallery
           </Link>
-          <Link to={'/contact'}
+          <Link
+            to={"/contact"}
             className="relative cursor-pointer 
                after:absolute after:left-0 after:-bottom-1 
                after:h-[2px] after:w-0 after:bg-red-600
@@ -92,14 +97,23 @@ const NavMenu = () => {
         {open && (
           <div className="absolute top-[80px] left-0 w-full bg-white/70 text-white rounded-[20px] shadow-md md:hidden">
             <ul className="flex flex-col gap-4 p-5 text-lg">
-              <Link to={'/'} className="hover:underline">Home</Link>
-              <Link to={'/about'} className="hover:underline">About</Link>
-              <Link to={'/curriculam'}>Curriculum
+              <Link to={"/"} className="hover:underline">
+                Home
               </Link>
+              <Link to={"/about"} className="hover:underline">
+                About
+              </Link>
+              <Link to={"/curriculam"}>Curriculum</Link>
 
-              <Link to={'/services'} className="hover:underline">Services</Link>
-              <Link to={'/gallery'} className="hover:underline">Gallery</Link>
-              <Link to={'/contact'} className="hover:underline">Contact Us</Link>
+              <Link to={"/services"} className="hover:underline">
+                Services
+              </Link>
+              <Link to={"/gallery"} className="hover:underline">
+                Gallery
+              </Link>
+              <Link to={"/contact"} className="hover:underline">
+                Contact Us
+              </Link>
             </ul>
           </div>
         )}
