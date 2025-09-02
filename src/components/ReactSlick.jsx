@@ -16,10 +16,10 @@ export default function SimpleSlider() {
     <Slider {...settings}>
       <div>
         <div className="slider-1 cursor-grab">
-          <div className="slider-txt relative top-1/2 left-5">
+          <div className="slider-txt relative top-1/2 left-8">
             <p className="text-white text-2xl">Welcome to</p>
             <h6 className="text-white md:text-5xl text-4xl py-2 font-semibold">
-              Educating Today's Learners For <br /> Tomorrow's World!
+              Explore, Learn, Grow <br />The Montessori Way
             </h6>
           </div>
         </div>
@@ -29,7 +29,7 @@ export default function SimpleSlider() {
            <div className="slider-txt relative top-1/2 left-5">
             <p className="text-white text-2xl">Welcome to</p>
             <h6 className="text-white md:text-5xl text-4xl py-2 font-semibold">
-              Educating Today's Learners For <br /> Tomorrow's World!
+              Explore, Learn, Grow <br />The Montessori Way
             </h6>
           </div>
         </div>
@@ -37,9 +37,9 @@ export default function SimpleSlider() {
       <div>
         <div className="slider-3 cursor-grab">
            <div className="slider-txt relative top-1/2 left-5">
-            <p className="text-white text-2xl">Welcome to</p>
+             <p className="text-white text-2xl">Welcome to</p>
             <h6 className="text-white md:text-5xl text-4xl py-2 font-semibold">
-              Educating Today's Learners For <br /> Tomorrow's World!
+              Explore, Learn, Grow <br />The Montessori Way
             </h6>
           </div>
         </div>

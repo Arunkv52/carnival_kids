@@ -14,12 +14,12 @@ const NavMenu = () => {
   };
 
   return (
-    <nav className="px-5 py-3 absolute top-0 w-[100%]">
-      <div className="flex items-center justify-between font-normal w-full py-2 bg-white/70 rounded-[50px] px-5 text-black relative">
+    <nav className="px-3 py-3 absolute top-0 w-[100%]">
+      <div className="flex items-start justify-between font-normal w-full py-2 px-5 text-white relative">
         {/* Logo */}
         <div className="logo">
           <Link to={'/'}>
-            <img src={Logo} alt="Logo" className="w-[80px]" />
+            <img src={Logo} alt="Logo" className="md:w-[150px] w-[100px]" />
           </Link>
         </div>
 
@@ -55,17 +55,6 @@ const NavMenu = () => {
             Curriculam
           </Link>
 
-          {/* Services */}
-          <Link
-            to={"/services"}
-            className="relative cursor-pointer 
-               after:absolute after:left-0 after:-bottom-1 
-               after:h-[2px] after:w-0 after:bg-red-600
-               after:transition-all after:duration-300 hover:after:w-full"
-          >
-            Services
-          </Link>
-
           <Link
             to={"/gallery"}
             className="relative cursor-pointer 
@@ -75,6 +64,18 @@ const NavMenu = () => {
           >
             Gallery
           </Link>
+
+           {/* Blog */}
+          <Link
+            to={"/blog"}
+            className="relative cursor-pointer 
+               after:absolute after:left-0 after:-bottom-1 
+               after:h-[2px] after:w-0 after:bg-red-600
+               after:transition-all after:duration-300 hover:after:w-full"
+          >
+            Blog
+          </Link>
+
           <Link
             to={"/contact"}
             className="relative cursor-pointer 
@@ -95,8 +96,8 @@ const NavMenu = () => {
 
         {/* Mobile Menu */}
         {open && (
-          <div className="absolute top-[80px] left-0 w-full bg-white/70 text-white rounded-[20px] shadow-md md:hidden">
-            <ul className="flex flex-col gap-4 p-5 text-lg">
+          <div className="absolute top-[90px] left-0 w-full bg-white/70 text-black font-bold rounded-[20px] shadow-md md:hidden z-50">
+            <ul className="flex flex-col gap-4 md:p-5 p-2 text-lg">
               <Link to={"/"} className="hover:underline">
                 Home
               </Link>
@@ -105,8 +106,8 @@ const NavMenu = () => {
               </Link>
               <Link to={"/curriculam"}>Curriculum</Link>
 
-              <Link to={"/services"} className="hover:underline">
-                Services
+              <Link to={"/blog"} className="hover:underline">
+                Blog
               </Link>
               <Link to={"/gallery"} className="hover:underline">
                 Gallery

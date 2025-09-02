@@ -3,13 +3,17 @@ import { ReactLenis } from "lenis/react";
 import { useTransform, motion, useScroll } from "motion/react";
 import { useRef } from "react";
 import Footer from "./Footer";
+import Img1 from '../assets/13.jpg'
+import Img2 from '../assets/DSC00228.jpg'
+import Img3 from '../assets/DSC00222.jpg'
+import Img4 from '../assets/DSC00181.jpg'
 const projects = [
     {
         title: "Practical Life",
         description:
             "Children are naturally interested in activities that are done in the day to day living like sweeping, mopping or washing clothes etc. The activities of Practical Life are to help the child gain control and coordination of his movement, help the child to gain independence and thereby adapt to his society. The Practical Life Area has materials that help children to acquire these skills. For example, the various “dressing frames” help toddlers learn to button, zip, and even tie a shoe lace. There are activities like washing hands, washing clothes which are activities of our daily life. Children are offered grace and courtesy activities in groups which help them adapt to the society.",
         src: "rock.jpg",
-        link: "https://images.unsplash.com/photo-1605106702842-01a887a31122?q=80&w=500&auto=format&fit=crop",
+        link: Img1,
         color: "#00D4FF",
     },
     {
@@ -17,14 +21,14 @@ const projects = [
         description:
             "Senses play a vital role in gathering information to function in the environment. The young child collects all information that he needs, through his senses. The child must refine his senses in his first six years of life. For this the child must have opportunity for refinement. The Montessori environment has materials that help children refine their visual, auditory, tactile, taste, hearing sense etc.",
         src: "tree.jpg",
-        link: "https://images.unsplash.com/photo-1605106250963-ffda6d2a4b32?w=500&auto=format&fit=crop&q=60",
+        link: Img2,
         color: "#8f89ff",
     },
     {
         title: "Language",
         description: "The environment is filled with opportunities to build language. There's a variety of books in the reading corner, and children are exposed to different word sounds and a rich vocabulary. Young children first spontaneously develop speech. Later, between the ages of 2.5 and 4.5, if they are in the right environment, writing will also emerge naturally, followed by reading. Beyond language, the Montessori method is designed to help children build self-esteem, solve problems with confidence, and develop self-control. It supports the child's overall development, helping them believe in themselves and become independent, well-adjusted individuals.",
         src: "water.jpg",
-        link: "https://images.unsplash.com/photo-1605106901227-991bd663255c?w=500&auto=format&fit=crop",
+        link: Img3,
         color: "#13006c",
     },
     {
@@ -32,7 +36,7 @@ const projects = [
         description:
             "Our daily life is filled with calculation, precision and exactness. We prepare the children through sensorial and practical life activities before introducing them to math concepts. In the Montessori environment starting right from the recognition of numbers, counting they go beyond like the arithmetic operations addition, subtraction, multiplication and division.",
         src: "house.jpg",
-        link: "https://images.unsplash.com/photo-1605106715994-18d3fecffb98?w=500&auto=format&fit=crop&q=60",
+        link: Img4,
         color: "#ed649e",
     },
     
@@ -46,7 +50,7 @@ export default function index() {
     return (
         <ReactLenis root>
             <main className="" ref={container}>
-                <section className="text-white   w-full ">
+                <section className="text-white pt-3 pb-25  w-full ">
                     {projects.map((project, i) => {
                         const targetScale = 1 - (projects.length - i) * 0.05;
                         return (
@@ -100,9 +104,9 @@ export const Card = ({
                     scale,
                     top: `calc(-5vh + ${i * 25}px)`,
                 }}
-                className={`flex flex-col relative -top-[25%] md:h-[450px] h-dvh w-[80%] rounded-md p-10 origin-top`}
+                className={`flex flex-col relative -top-[25%] md:h-[500px] h-dvh md:w-[80%] w-full rounded-md p-5 origin-top`}
             >
-                <h2 className="text-4xl text-center font-semibold">{title}</h2>
+                <h2 className="text-4xl md:text-center text-left font-semibold">{title}</h2>
                 <div className={`md:flex h-full mt-5 gap-10`}>
                     <div className={`md:w-[60%] w-full relative`}>
                         <p className="text-[18px]">{description}</p>

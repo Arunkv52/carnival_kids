@@ -6,77 +6,60 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import Smile from "../assets/girlyy.jpg";
-
+import Smile1 from "../assets/DSC00222.jpg";
+import Smile2 from "../assets/DSC00227.jpg";
+import Smile3 from "../assets/DSC00243.jpg";
+import Smile4 from "../assets/DSC00233.jpg";
+import Smile5 from "../assets/DSC00196.jpg";
 
 const MyCarousal = () => {
   return (
     <>
       <Carousel>
         <CarouselContent>
-          <CarouselItem className="md:basis-1/4">
+          <CarouselItem className="md:basis-1/3">
             <div>
-              <img src={Smile} alt=""/>
+              <img src={Smile1} alt="" />
               <h2 className="text-2xl font-semibold pt-10 pb-2 text-[#0c1637]">
-                Annual days
+                Learn
               </h2>
-              <p className="text-[18px] text-black/80">
-                Develop or strengthen your management skills, making a decisive
-                contribution to your organization's excellent performance.
-              </p>
             </div>
           </CarouselItem>
-          <CarouselItem className="md:basis-1/4">
+          <CarouselItem className="md:basis-1/3">
             <div>
-              <img src={Smile} alt=""/>
+              <img src={Smile5} alt="" />
               <h2 className="text-2xl font-semibold pt-10 pb-2 text-[#0c1637]">
-                Annual days
+                Dining
               </h2>
-              <p className="text-[18px] text-black/80">
-                Develop or strengthen your management skills, making a decisive
-                contribution to your organization's excellent performance.
-              </p>
             </div>
           </CarouselItem>
-          <CarouselItem className="md:basis-1/4">
+          <CarouselItem className="md:basis-1/3">
             <div>
-              <img src={Smile} alt=""/>
+              <img src={Smile3} alt="" />
               <h2 className="text-2xl font-semibold pt-10 pb-2 text-[#0c1637]">
-                Sports days
+                Games
               </h2>
-              <p className="text-[18px] text-black/80">
-                Develop or strengthen your management skills, making a decisive
-                contribution to your organization's excellent performance.
-              </p>
             </div>
           </CarouselItem>
-          <CarouselItem className="md:basis-1/4">
+          <CarouselItem className="md:basis-1/3">
             <div>
-              <img src={Smile} alt=""/>
+              <img src={Smile4} alt="" />
               <h2 className="text-2xl font-semibold pt-10 pb-2 text-[#0c1637]">
-                Annual days
+                Meditation
               </h2>
-              <p className="text-[18px] text-black/80">
-                Develop or strengthen your management skills, making a decisive
-                contribution to your organization's excellent performance.
-              </p>
-            </div>
-          </CarouselItem>
-          <CarouselItem className="md:basis-1/4">
-            <div>
-              <img src={Smile} alt=""/>
-              <h2 className="text-2xl font-semibold pt-10 pb-2 text-[#0c1637]">
-                Annual days
-              </h2>
-              <p className="text-[18px] text-black/80">
-                Develop or strengthen your management skills, making a decisive
-                contribution to your organization's excellent performance.
-              </p>
             </div>
           </CarouselItem>
         </CarouselContent>
-        <CarouselPrevious className={'Carousal-prev hidden md:block absolute left-[95%] -top-[16%]'}/>
-        <CarouselNext className={'Carousal-next hidden md:block absolute right-0 -top-[16%]'}/>
+        <CarouselPrevious
+          className={
+            "Carousal-prev bg-red-600 p-[15px] w-[50px] h-[50px] text-white hidden md:block absolute left-[93%] -top-[16%]"
+          }
+        />
+        <CarouselNext
+          className={
+            "Carousal-next bg-red-600 p-[15px] w-[50px] h-[50px] text-white hidden md:block absolute right-0 -top-[16%]"
+          }
+        />
       </Carousel>
     </>
   );

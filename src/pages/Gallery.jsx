@@ -2,7 +2,7 @@ import React from "react";
 import DomeGallery from "../components/DemoGallery";
 import NavMenu from "../components/NavMenu";
 import Footer from "../components/Footer";
-import AboutBg from "../assets/people-smile.webp";
+import AboutBg from "../assets/14.jpg";
 import PopupForm from "../components/PopupForm";
 
 
@@ -20,7 +20,7 @@ const Gallery = () => {
         }}
       >
         <NavMenu />
-        <h2 className="text-white text-4xl font-semibold pt-90 px-5">Gallery</h2>
+        <h2 className="text-white text-4xl font-semibold pt-[500px] px-10">Gallery</h2>
       </div>
       <div className="max-w-full" style={{ width: "100dvw", height: "100vh" }}>
         <DomeGallery />

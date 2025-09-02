@@ -1,8 +1,8 @@
 import React from "react";
 import NavMenu from "../components/NavMenu";
-import AboutBg from "../assets/people-smile.webp";
+import AboutBg from "../assets/14.jpg";
 import { motion } from "framer-motion";
-import abtImage from "../assets/kids-happy.jpeg";
+import abtImage from "../assets/10.jpg";
 import Footer from "../components/Footer";
 import Ami from "../assets/Ami.png";
 import PopupForm from "../components/PopupForm";
@@ -19,13 +19,14 @@ const About = () => {
         }}
       >
         <NavMenu />
-        <h2 className="text-white text-4xl font-semibold pt-90 px-5">About</h2>
+        <h2 className="text-white text-4xl font-semibold pt-[500px] px-10">
+          About
+        </h2>
       </div>
       <div className="py-20 px-10 md:flex justify-between gap-3">
         <div className="md:w-1/2 w-full">
           <h5 className="text-end md:text-3xl text-[20px] font-normal">
-            Potential Students <br /> Integrate reach values <br /> at our
-            school
+            learn through   <br /> hands-on experiences, <br /> independence, and play.
           </h5>
         </div>
         <div className="md:w-1/2 w-full md:py-0 py-3 md:text-5xl text-4xl font-bold uppercase border-l-[30px] border-l-blue-300">
@@ -39,16 +40,17 @@ const About = () => {
         </div>
       </div>
       {/* abt img */}
-      <div className="md:flex justify-between items-start gap-5 pt-10">
+      <div className="md:flex justify-around items-start gap-5 pt-10">
         <div>
-          <img src={abtImage} alt="" />
+          <img src={abtImage} alt=""/>
         </div>
         <div>
           <p className="text-2xl px-5 md:py-0 py-10">
-            Kingsworth promotes a deep understanding and respect for all
-            cultures. We encourage positive choice-making with a special
-            emphasis on empathy. Our goal is that children develop respect for
-            themselves, others, and their environment.
+            Welcome to Carnival Kids Montessori School, where learning is not
+            just about books, but about discovering the world through curiosity
+            and creativity. Located in GN Mills, Coimbatore, we provide a safe
+            and nurturing space for children aged 3 to 6 years to explore,
+            learn, and grow with confidence.
           </p>
         </div>
       </div>
@@ -140,7 +142,7 @@ const About = () => {
 
       {/* Logo */}
       <div className="md:flex flex-col justify-center">
-        <h1 className="text-4xl px-50 py-20">
+        <h1 className="md:text-4xl text-2xl md:px-50 px-5 py-20">
           <motion.svg
             width="100"
             height="100"
@@ -193,7 +195,7 @@ const About = () => {
 
       {/* Footer start */}
       <Footer />
-      <PopupForm/>
+      <PopupForm />
     </>
   );
 };

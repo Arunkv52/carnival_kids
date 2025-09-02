@@ -5,12 +5,13 @@ import { Link } from "react-router";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-[linear-gradient(98deg,#000000,#48a8df)] md:px-10 px-5 md:py-20 py-10">
+      <footer className="bg-[linear-gradient(98deg,#000000,#48a8df)] md:px-10 px-5 md:py-20 py-20">
         <div className="footer-top md:flex">
           <div className="ftop-1 md:w-[75%] w-full">
             <h6 className="text-white md:text-4xl text-2xl">
-              Carnival Kids is built by an interdisciplinary team working at the
-              intersection of science, education and storytelling.
+              Where curiosity meets creativity, and learning becomes a joyful
+              journey. Together, we nurture confident, independent, and
+              compassionate young minds..
             </h6>
           </div>
           <div className="ftop-2 md:w-[25%] w-full text-end md:pt-0 pt-10">
@@ -24,39 +25,58 @@ const Footer = () => {
         </div>
         <div className="footer-bottom md:pt-20 pt-10 md:flex flex flex-wrap justify-between">
           <div className="fb-1 md:w-1/2 w-full pb-5">
-            <ul className="text-white text-[20px]">
-              <li>Facebook</li>
-              <li>Instagram</li>
-              <li>Youtube</li>
-              <li>Linkedin</li>
+            <h6 className="text-white/60 font-bold pb-5">Social Links</h6>
+            <ul className="text-white text-[20px] ">
+              <li className="hover:text-red-600 cursor-pointer">Facebook</li>
+              <li className="hover:text-red-600 cursor-pointer">Instagram</li>
+              <li className="hover:text-red-600 cursor-pointer">Youtube</li>
+              <li className="hover:text-red-600 cursor-pointer">Linkedin</li>
             </ul>
           </div>
-          <div className="fb-2 md:w-1/4 w-full ">
-            <ul className="text-white text-[20px] md:flex flex-col">
-              <Link to={"/about"}>About</Link>
-              <Link to={"/curriculam"}>Curriculam</Link>
-              <Link to={"/services"}>Services</Link>
-              <Link to={"/gallery"}>Gallery</Link>
-              <Link to={"/contact"}>Contact</Link>
+          <div className="fb-2 md:w-1/4 w-full pb-5 md:mt-0 mt-5">
+            <h6 className="text-white/60 font-bold pb-5">Quick Links</h6>
+            <ul className="text-white text-[20px] md:flex flex flex-col">
+              <Link to={"/about"} className="hover:text-red-600 cursor-pointer">
+                About
+              </Link>
+              <Link
+                to={"/curriculam"}
+                className="hover:text-red-600 cursor-pointer"
+              >
+                Curriculam
+              </Link>
+              <Link
+                to={"/gallery"}
+                className="hover:text-red-600 cursor-pointer"
+              >
+                Gallery
+              </Link>
+              <Link
+                to={"/contact"}
+                className="hover:text-red-600 cursor-pointer"
+              >
+                Contact
+              </Link>
+              <Link to={"/blog"} className="hover:text-red-600 cursor-pointer">
+                Blog
+              </Link>
             </ul>
           </div>
           <div className="fb-3 md:w-1/4 w-full md:pt-0 pt-10">
-            <ul className="text-white text-[20px]">
-              <li className="font-semibold">Address</li>
-              <li className="text-[16px] text-white/80 py-2">
-                Opp To Perks Manchester, Rajiv Gandhi Nagar Road Coimbatore-
-                641015
+            <ul className="text-white">
+              <h6 className="text-white/60 font-bold pb-5">Address</h6>
+              <li className="text-[20px] text-white">
+                No 9, Rajalakshmi Nagar, Subramaniam palayam, GN Mills,
+                Coimbatore – 641029
               </li>
             </ul>
-            <ul className="text-white text-[20px] md:pt-0 pt-3">
-              <li className="font-semibold py-2">Contact</li>
-              <li className="text-[16px] text-white/80">
-                Mobile : +91 98566 11111
+            <ul className="text-white md:pt-5 pt-3 md:mt-0 mt-3">
+              <h6 className="text-white/60 font-bold pb-3">Contact</h6>
+              <li className="text-[20px] text-white">
+                Mobile : +91 98402 22744
               </li>
-              <li className="text-[16px] text-white/80">
-                Telephone : 0422-298546{" "}
-              </li>
-              <li className="text-[16px] text-white/80">
+             
+              <li className="text-[20px] text-white">
                 Email : info@carnivalkids.com{" "}
               </li>
             </ul>

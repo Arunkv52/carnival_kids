@@ -1,23 +1,19 @@
 import React from "react";
 import Header from "../components/Header";
-import Kids from "../assets/kids-happy.jpeg";
-import { Button } from "../components/ui/button";
 import VideoBlue from "../assets/video-blue.mp4";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Footer from "../components/Footer";
-import Smile from "../assets/smile.webp";
 import MyCarousal from "../components/MyCarousal";
 import ScrollVelocity from "../components/ScrollVelocity";
-import SchoolBg from "../assets/school-image.jpg";
 import FallingText from "../components/FallingText";
-import EducationImg from "../assets/school.png";
+import EducationImg from "../assets/DSC00203.jpg";
 import PopupForm from "../components/PopupForm";
 
 const Home = () => {
   // Get scroll progress
   const { scrollYProgress } = useScroll();
   // Transform scroll progress (0-1) to width percentage (20% → 100%)
-  const width = useTransform(scrollYProgress, [0, 1], ["50%", "100%"]);
+  const width = useTransform(scrollYProgress, [0, 1], ["60%", "100%"]);
   return (
     <>
       <Header />
@@ -28,12 +24,13 @@ const Home = () => {
             OUR <br />
             MISSION
           </h1>
-
-          <p className="text-white md:text-[20px] text-[16px] md:pb-0 pb-5">
-            Our inspiring and immersive multimedia resources featuring linear
-            and 360˚ videos, VR/AR, interactive media and hands-on projects and
-            activities are offered in English and French.
-          </p>
+          <div>
+            <p className="text-white md:text-[20px] text-[16px] md:pb-0 pb-5">
+              Our mission is to build a strong foundation for lifelong learning
+              by creating a joyful, safe, and stimulating environment where
+              children can.
+            </p>
+          </div>
         </div>
         <svg
           width="200"
@@ -75,8 +72,8 @@ const Home = () => {
       </div>
 
       {/* Image rounded start */}
-      <div className="img-round md:px-10 px-5 md:py-10 py-0">
-        <div className=" text-black text-left font-bold md:py-20 py-10 md:rounded-3xl rounded-none md:flex justify-between">
+      <div className="img-round md:px-10 px-5 md:py-10 py-0 hidden md:block">
+        <div className=" text-black text-left font-bold md:py-20 py-10 md:rounded-3xl rounded-none md:flex justify-around">
           <div className="">
             <div className="video flex justify-left md:py-10 py-5">
               <motion.video
@@ -92,14 +89,14 @@ const Home = () => {
           </div>
           <div>
             <h1 className="md:text-6xl text-3xl md:pb-10 pb-0">
-              Positive Choice-making With a Special Emphasis on Empathy.
+              We Believe Every Child is Unique and Learns
             </h1>
           </div>
         </div>
       </div>
 
       {/* Explore our programs */}
-      <div className="explore md:px-10 px-5">
+      <div className="explore md:px-10 px-5 md:py-0 py-20">
         <div className="explore-carousal md:py-10 py-0 px-0.5">
           <MyCarousal />
         </div>
@@ -109,53 +106,49 @@ const Home = () => {
         <ScrollVelocity />
       </div>
       {/* Content */}
-      <div className="md:py-20 py-0">
+      <div className="md:pt-10 md:pb-20 pb-0 py-0">
         <div className="md:px-10 px-5 md:flex justify-between">
           <div>
             <h4 className="md:text-6xl text-4xl font-bold md:pb-10 pb-3">
-              Pastoral Care at the Secondary Level
+              At Carnival Kids, we don’t just teach – we inspire a love for
+              learning!
             </h4>
           </div>
           <div>
             <p className="md:text-[20px] text-[16px] text-black/70">
-              Students are assigned a tutor when they arrive at the school. This
-              member of staff is the primary contact for pupils and their
-              parents as well as other teachers throughout the academic year.
-              The tutor takes responsibility for the welfare and academic
-              progress of their students and is responsible for expressing and
-              relaying praise and concern from other members of staff back to
-              the parents. Tutors liaise with parents on a regular basis, giving
-              them vital feedback on the student’s life at school. The Head of
-              School Life and Well-Being is available as needed as a point of
-              contact for any issues. We also organise bonding events,
-              after-school and lunch-time icebreaker activities, English as a
-              Second Language, and private tutoring where necessary.
+              At Carnival Kids, we believe every child is unique and learns best
+              in a nurturing environment. Our Montessori-based approach helps
+              children develop independence, creativity, confidence, and social
+              skills while making learning fun and meaningful.
             </p>
           </div>
         </div>
         <div className="boxy md:px-10 md:py-0 py-10 md:flex justify-between items-center gap-5">
           <div className="bg-red-700 p-10 md:m-0 m-3">
             <h2 className="text-white md:text-5xl text-4xl font-bold">
-              Most Respected Brand
+              Explore the World
             </h2>
             <p className="text-white text-[17px] py-2">
-              Schools in Coimbatore- Education World
+              Through curiosity, play, and creativity, children discover
+              knowledge beyond textbooks.
             </p>
           </div>
           <div className="bg-blue-700 p-10  md:m-0 m-3">
             <h2 className="text-white md:text-5xl text-4xl font-bold">
-              Campus Architecture & Design
+              Learn at Their Own Pace
             </h2>
             <p className="text-white text-[17px] py-2">
-              CBSE School in Coimbatore - Education World
+              Hands-on Montessori methods encourage independence and
+              personalized learning.
             </p>
           </div>
           <div className="bg-yellow-500 p-10  md:m-0 m-3">
             <h2 className="text-white md:text-5xl text-4xl font-bold">
-              Multi-Sports Culture International
+              Grow with Confidence
             </h2>
             <p className="text-white text-[17px] py-2">
-              Schools in Coimbatore - Education World
+              Nurturing every child to become confident, independent, and
+              compassionate individuals.
             </p>
           </div>
         </div>
@@ -166,16 +159,19 @@ const Home = () => {
         <div className="md:flex justify-between gap-5">
           <div className="box-left md:w-1/2 w-full md:py-50 py-10 md:px-10 px-2">
             <p className="text-white py-1 px-3 rounded-2xl bg-red-600 w-fit">
-              Northwood By The Numbers
+              Our Vision
             </p>
-            <h3 className="text-black md:text-7xl text-3xl font-bold py-5">
-              Leave Your Print. Lead the Pack.
+            <h3 className="text-black md:text-6xl text-3xl font-bold py-5">
+              Building Tomorrow’s Compassionate Citizens
             </h3>
             <p className="text-black/80 md:text-[20px] text-[16px]">
-              Our teachers recognize that the majority of our students are going
-              through a period of transition. We try to make our school the
-              anchor for the child. A warm and welcoming environment can go a
-              long way in the adaptation and comfort level of the student.
+              We envision Carnival Kids as a place where children blossom into
+              self-reliant, creative, and confident learners who are prepared
+              not only for school but for life.
+            </p>
+            <p className="text-black/80 md:text-[20px] text-[16px]">
+              We aspire to empower young minds with values, skills, and
+              knowledge to become compassionate citizens of tomorrow.
             </p>
           </div>
           <div className="box-right md:w-1/2 w-full md:py-10 py-5">
@@ -231,7 +227,7 @@ const Home = () => {
       <Footer />
 
       {/* popup form */}
-      <PopupForm/>
+      <PopupForm />
     </>
   );
 };

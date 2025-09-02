@@ -6,7 +6,8 @@ import About from "./pages/About";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 import Curriculam from "./pages/Curriculam";
-import Services from "./pages/Services";
+import Blog from "./pages/Blog";
+import WhyMontessori from "./components/blog/WhyMontessori";
 
 const App = () => {
   return (
@@ -18,8 +19,9 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/curriculam" element={<Curriculam/>}/>
-          <Route path="/services" element={<Services />}/>
+          <Route path="/blog" element={<Blog />}/>
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/whymontessori" element={<WhyMontessori />} />
         </Routes>
       </BrowserRouter>
     </>

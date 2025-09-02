@@ -1,5 +1,5 @@
 import React from "react";
-import ContactBG from "../assets/campus-school.jpeg";
+import ContactBG from "../assets/14.jpg";
 import NavMenu from "../components/NavMenu";
 import Footer from "../components/Footer";
 import PopupForm from "../components/PopupForm";
@@ -7,7 +7,7 @@ import PopupForm from "../components/PopupForm";
 const Contact = () => {
   return (
     <>
-    <PopupForm/>
+      <PopupForm />
       <div
         className="abt-main w-full"
         style={{
@@ -17,31 +17,28 @@ const Contact = () => {
         }}
       >
         <NavMenu />
-        <h2 className="text-white text-4xl font-semibold pt-90 px-5">
+        <h2 className="text-white text-4xl font-semibold pt-[500px] px-10">
           Contact
         </h2>
       </div>
 
-      <div className="form-place md:px-20 py-20 md:flex justify-around">
+      <div className="form-place md:px-20 px-5 py-20 md:flex justify-around">
         {/* Contact Info */}
         <div className="md:w-1/2">
-          <h2 className="text-4xl">
-            Do you have a question about your Student Support Services? Would
-            you like to speak to our Admissions Team? Or, are you from the media
-            and wish to reach out to our Press Office? You can find all the
-            contact details for our staff and departments across the University
-            here.
+          <h2 className="md:text-4xl text-2xl">
+            At Carnival Kids Montessori, we don’t just prepare children for
+            school – we prepare them for life!
           </h2>
           <ul className="py-10">
-            <li className="text-2xl">
+            <li className="md:text-[20px] text-[20px] md:py-1 py-1">
               <span className="font-semibold text-black/60">Mobile :</span> +91
               98402 22744
             </li>
-            <li className="text-2xl">
+            <li className="md:text-[20px] text-[20px] md:py-1 py-1">
               <span className="font-semibold text-black/60">Email :</span>{" "}
               vidhyatmt@gmail.com
             </li>
-            <li className="text-2xl">
+            <li className="md:text-[20px] text-[20px] md:py-1 py-1">
               <span className="font-semibold text-black/60">Address :</span> No
               9, Rajalakshmi Nagar, Subramaniam palayam, <br /> GN Mills,
               Coimbatore – 641029
@@ -50,38 +47,106 @@ const Contact = () => {
         </div>
         {/* Contact Form */}
         <div className="md:w-1/2">
-          <form>
-            <div className="name py-5">
+          <form action="" className="px-10 py-0 rounded-2xl">
+            <div className="py-2">
+              <label htmlFor="name" className="text-white"></label>
               <input
                 type="text"
                 name="name"
-                placeholder="Enter your name"
-                className="py-4 px-2 bg-gray-600 text-white w-full"
+                id=""
+                placeholder="Enter parent name"
+                required
+                className="bg-black w-full py-2 px-3 text-white border-0 outline-0"
               />
             </div>
-            <div className="pwd py-5">
+            <div className="py-2">
+              <label htmlFor="name" className="text-white"></label>
               <input
-                type="email"
-                name="email"
-                placeholder="Enter your email"
-                className="py-4 px-2 bg-gray-600 text-white w-full"
+                type="text"
+                name="name"
+                id=""
+                placeholder="Enter child name"
+                required
+                className="bg-black w-full py-2 px-3 text-white border-0 outline-0"
               />
             </div>
-            <div className="grade py-4">
+            <div className="py-2">
               <select
-                name="grade"
-                className="bg-gray-600 py-4 px-3 w-full text-white"
+                name="enquiry"
+                id=""
+                className="bg-black w-full py-2 px-3 text-white border-0 outline-0"
+                required
               >
-                <option value="Grade 1">Grade 1</option>
-                <option value="Grade 2">Grade 2</option>
-                <option value="Grade 3">Grade 3</option>
-                <option value="Grade 4">Grade 4</option>
-                <option value="Grade 5">Grade 5</option>
+                <option value="" selected>
+                  Enquiry for son / daughter
+                </option>
+                <option value="son">Son</option>
+                <option value="daughter">Daughter</option>
               </select>
             </div>
-            <div className="btn-submit bg-red-600 text-white py-3 px-5">
-              <button type="submit" className="font-semibold text-center">
-                Submit
+            
+
+            <div className="py-2">
+              <label htmlFor="tel" className="text-white"></label>
+              <input
+                type="tel"
+                name="name"
+                id=""
+                placeholder="Enter phone number"
+                required
+                className="bg-black w-full py-2 px-3 text-white border-0 outline-0"
+              />
+            </div>
+            <div className="py-2">
+              <label htmlFor="email" className="text-white"></label>
+              <input
+                type="email"
+                name="name"
+                id=""
+                placeholder="Enter email address"
+                required
+                className="bg-black w-full py-2 px-3 text-white border-0 outline-0"
+              />
+            </div>
+
+            <div className="py-2">
+              <label htmlFor="text" className="text-white"></label>
+              <select
+                name="grade"
+                id=""
+                className="bg-black w-full py-2 px-3 text-white border-0 outline-0"
+                required
+              >
+                <option value="" selected>
+                  Select Child Age
+                </option>
+                <option value="Age0">Age 1 to 2</option>
+                <option value="Age1">Age 2 to 3</option>
+                <option value="Age2">Age 3 to 4</option>
+                <option value="Age3">Age 4 to 5</option>
+                <option value="Age4">Above 5</option>
+              </select>
+            </div>
+            <div className="py-2">
+              <label htmlFor="text" className="text-white"></label>
+              <select
+                name="grade"
+                id=""
+                className="bg-black w-full py-2 px-3 text-white border-0 outline-0"
+                required
+              >
+                <option value="" selected>
+                  Select Centre
+                </option>
+                <option value="Coimbatore">Coimbatore</option>
+              </select>
+            </div>
+            <div className="py-4">
+              <button
+                type="submit"
+                className="bg-red-600 border-none text-white font-bold px-8 py-3 hover:bg-black hover:text-white hover:cursor-pointer w-1/2"
+              >
+                Send Enquiry
               </button>
             </div>
           </form>

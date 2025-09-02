@@ -1,11 +1,6 @@
 .slider-1 {
   background: linear-gradient(
-      360deg,
-      /* 👈 rotate the gradient angle */ rgba(1, 6, 18, 0.759),
-      rgba(255, 255, 255, 0.1)
-    ),
-    url("../assets/students.jpg");
-
+96deg, rgba(1, 6, 18, 1), rgba(255, 255, 255, 0.1)), url(/src/assets/Banner-1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,10 +9,7 @@
 }
 .slider-2 {
   background: linear-gradient(
-      360deg,
-      /* 👈 rotate the gradient angle */ rgba(1, 6, 18, 0.759),
-      rgba(255, 255, 255, 0.1)
-    ),url(../assets/kids-school.jpg);
+96deg, rgba(1, 6, 18, 1), rgba(255, 255, 255, 0.1)), url(/src/assets/Banner-2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,10 +18,7 @@
 }
 .slider-3 {
   background: linear-gradient(
-      360deg,
-      /* 👈 rotate the gradient angle */ rgba(1, 6, 18, 0.759),
-      rgba(255, 255, 255, 0.1)
-    ),url(../assets/preschool.jpg);
+96deg, rgba(1, 6, 18, 1), rgba(255, 255, 255, 0.1)), url(/src/assets/Banner-3.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

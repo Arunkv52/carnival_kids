@@ -2,8 +2,8 @@ import { useRef, useState, useEffect } from "react";
 import Matter from "matter-js";
 
 const FallingText = ({
-  text = "The 🎒 Montessori 📚 Method of 👶 education developed 🚌 by Dr. Maria Montessori 👧 is a child 👦 centered,",
-  highlightWords = ["Montessori","📚","👶","👧","🎒","🚌", "education","👦"],
+  text = "Child-centered 🎒 Montessori 📚 activity-based 👶 learning 🚌 Focus 👧 Balanced academics 👦 learning, education",
+  highlightWords = ["Montessori","📚","👶","👧","🎒","🚌","learning", "education","👦"],
   trigger = "hover",
   backgroundColor = "transparent",
   wireframes = false,
