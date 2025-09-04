@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 
 * {
   box-sizing: border-box;
@@ -6,8 +7,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "TikTok Sans", sans-serif;
-  background-color: #eff3f3;
+  font-family: "TikTok Sans","cursive",sans-serif, "Delicious Handrawn";
+  background-color: #ffffff;
   --sb-track-color: #ffffff;
   --sb-thumb-color: #da251c;
   --sb-size: 7px;

@@ -7,7 +7,7 @@ const PopupForm = () => {
   return (
     <>
       <div
-        className="bg-red-600 w-fit p-4 rounded-[50px] text-white fixed bottom-5 z-10 left-2 cursor-pointer shadow-2xl"
+        className="bg-[#54b1e3] w-fit p-4 rounded-[50px] text-white fixed bottom-5 z-10 left-2 cursor-pointer shadow-2xl"
         onClick={() => {
           setOpen(!open);
         }}
@@ -16,7 +16,7 @@ const PopupForm = () => {
       </div>
       <div className="some-msg fixed md:bottom-3 bottom-10 z-10 md:left-20 left-15">
         {open && (
-          <div className="bg-red-600 h-auto">
+          <div className="bg-[#0f2734] h-auto">
             <form action="" className="md:px-10 px-8 md:py-4 py-2 rounded-2xl">
               <div
                 className=" flex justify-end"

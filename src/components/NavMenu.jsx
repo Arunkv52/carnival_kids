@@ -4,6 +4,7 @@ import { X } from "lucide-react";
 import Logo from "../assets/logo.png";
 import { ChevronDown } from "lucide-react";
 import { Link } from "react-router";
+import { motion } from "framer-motion";
 
 const NavMenu = () => {
   const [open, setOpen] = useState(false);
@@ -14,14 +15,22 @@ const NavMenu = () => {
   };
 
   return (
-    <nav className="px-3 py-3 absolute top-0 w-[100%]">
+    <nav className="px-0 py-0 absolute top-0 w-[100%]">
       <div className="flex items-start justify-between font-normal w-full py-2 px-5 text-white relative">
         {/* Logo */}
-        <div className="logo">
-          <Link to={'/'}>
-            <img src={Logo} alt="Logo" className="md:w-[150px] w-[100px]" />
+        <motion.div
+          className="logo"
+          initial={{ y: 800, opacity: 0 }} // start position (down)
+          animate={{ y: 0, opacity: 1 }} // end position (normal)
+           transition={{
+        duration: 7,                  // longer duration for smoothness
+        ease: [0.25, 0.1, 0.25, 1]      // cubic-bezier ease (soft smooth)
+      }}
+        >
+          <Link to={"/"}>
+            <img src={Logo} alt="Logo" className="md:w-[190px] w-[100px]" />
           </Link>
-        </div>
+        </motion.div>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex justify-start gap-8 text-[18px] hover:cursor-pointer">
@@ -65,7 +74,7 @@ const NavMenu = () => {
             Gallery
           </Link>
 
-           {/* Blog */}
+          {/* Blog */}
           <Link
             to={"/blog"}
             className="relative cursor-pointer 

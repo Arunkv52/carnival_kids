@@ -6,11 +6,10 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import Smile1 from "../assets/DSC00222.jpg";
-import Smile2 from "../assets/DSC00227.jpg";
-import Smile3 from "../assets/DSC00243.jpg";
-import Smile4 from "../assets/DSC00233.jpg";
-import Smile5 from "../assets/DSC00196.jpg";
+import Fisherman from '../assets/cartoon/fisherman.jpg'
+import Book from '../assets/cartoon/books.jpg'
+import Study from '../assets/cartoon/Study.jpg'
+import StudyBook from '../assets/cartoon/Suceed.jpg'
 
 const MyCarousal = () => {
   return (
@@ -19,45 +18,69 @@ const MyCarousal = () => {
         <CarouselContent>
           <CarouselItem className="md:basis-1/3">
             <div>
-              <img src={Smile1} alt="" />
-              <h2 className="text-2xl font-semibold pt-10 pb-2 text-[#0c1637]">
-                Learn
-              </h2>
+              <img src={Fisherman} alt="" />
+              <div className="pt-5  pb-20 px-10 text-center">
+                <h2 className="text-4xl font-semibold pt-2 pb-2 text-black font-[Delicious_Handrawn]">
+                  Learn
+                </h2>
+                <p className="text-[18px] italic">
+                  Through curiosity, play, and creativity, children discover
+                  knowledge beyond textbooks.
+                </p>
+              </div>
             </div>
           </CarouselItem>
           <CarouselItem className="md:basis-1/3">
             <div>
-              <img src={Smile5} alt="" />
-              <h2 className="text-2xl font-semibold pt-10 pb-2 text-[#0c1637]">
-                Dining
-              </h2>
+              <img src={Book} alt="" />
+              <div className="pt-5  pb-20 px-10 text-center">
+                <h2 className="text-4xl font-semibold pt-2 pb-2 text-black font-[Delicious_Handrawn]">
+                  Learn
+                </h2>
+                <p className="text-[18px] italic">
+                  Through curiosity, play, and creativity, children discover
+                  knowledge beyond textbooks.
+                </p>
+              </div>
             </div>
           </CarouselItem>
           <CarouselItem className="md:basis-1/3">
             <div>
-              <img src={Smile3} alt="" />
-              <h2 className="text-2xl font-semibold pt-10 pb-2 text-[#0c1637]">
-                Games
-              </h2>
+              <img src={Study} alt="" />
+              <div className="pt-5  pb-20 px-10 text-center">
+                <h2 className="text-4xl font-semibold pt-2 pb-2 text-black font-[Delicious_Handrawn]">
+                  Learn
+                </h2>
+                <p className="text-[18px] italic">
+                  Through curiosity, play, and creativity, children discover
+                  knowledge beyond textbooks.
+                </p>
+              </div>
             </div>
           </CarouselItem>
           <CarouselItem className="md:basis-1/3">
             <div>
-              <img src={Smile4} alt="" />
-              <h2 className="text-2xl font-semibold pt-10 pb-2 text-[#0c1637]">
-                Meditation
-              </h2>
+              <img src={StudyBook} alt="" />
+              <div className="pt-5  pb-20 px-10 text-center">
+                <h2 className="text-4xl font-semibold pt-2 pb-2 text-black font-[Delicious_Handrawn]">
+                  Learn
+                </h2>
+                <p className="text-[18px] italic">
+                  Through curiosity, play, and creativity, children discover
+                  knowledge beyond textbooks.
+                </p>
+              </div>
             </div>
           </CarouselItem>
         </CarouselContent>
         <CarouselPrevious
           className={
-            "Carousal-prev bg-red-600 p-[15px] w-[50px] h-[50px] text-white hidden md:block absolute left-[93%] -top-[16%]"
+            "Carousal-prev bg-[#54b1e3] p-[15px] w-[50px] h-[50px] text-white hidden md:block absolute left-[92%] top-[100%]"
           }
         />
         <CarouselNext
           className={
-            "Carousal-next bg-red-600 p-[15px] w-[50px] h-[50px] text-white hidden md:block absolute right-0 -top-[16%]"
+            "Carousal-next bg-[#54b1e3] p-[15px] w-[50px] h-[50px] text-white hidden md:block absolute right-0 top-[100%]"
           }
         />
       </Carousel>
