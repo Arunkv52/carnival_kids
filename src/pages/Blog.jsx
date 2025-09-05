@@ -12,62 +12,62 @@ const Blog = () => {
       <div
         className="abt-main w-full"
         style={{
-          backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${AboutBg})`,
+          backgroundImage: `url(${AboutBg})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
         <NavMenu />
-        <h2 className="text-white text-4xl font-semibold pt-[500px] px-10">
+        <h2 className="text-white text-6xl font-semibold pt-[500px] px-10 font-[Delicious_Handrawn]">
           Blog
         </h2>
       </div>
       <div className="grid md:grid-cols-3 grid-cols-1 gap-4 py-10 px-10">
         <div>
           <img src={AboutBg} alt="" className="w-full h-auto" />
-          <h6 className="text-2xl font-bold pt-3">
+          <h6 className="text-2xl font-bold pt-3 font-[cursive]">
             Why Montessori Education is the Best Start for Your Child
           </h6>
-          <p className="text-[18px]">
+          <p className="text-[18px] py-2 font-[cursive] text-black/70">
             Every child is born with natural curiosity and the ability to learn
           </p>
-          <p className="text-blue-900 underline cursor-pointer py-3 font-bold">
+          <p className="text-blue-900 underline cursor-pointer py-3 font-bold font-[cursive]">
             <Link to={"/whymontessori"}>Learn more</Link>
           </p>
         </div>
         <div>
           <img src={AboutBg} alt="" className="w-full h-auto" />
-          <h6 className="text-2xl font-bold pt-3">
+          <h6 className="text-2xl font-bold pt-3 font-[cursive]">
             Why Montessori Education is the Best Start for Your Child
           </h6>
-          <p className="text-[18px]">
+          <p className="text-[18px] py-2 font-[cursive] text-black/70">
             Every child is born with natural curiosity and the ability to learn
           </p>
-          <p className="text-blue-900 underline cursor-pointer py-3 font-bold">
+          <p className="text-blue-900 underline cursor-pointer py-3 font-bold font-[cursive]">
             <Link to={"/whymontessori"}>Learn more</Link>
           </p>
         </div>
         <div>
           <img src={AboutBg} alt="" className="w-full h-auto" />
-          <h6 className="text-2xl font-bold pt-3">
+          <h6 className="text-2xl font-bold pt-3 font-[cursive]">
             Why Montessori Education is the Best Start for Your Child
           </h6>
-          <p className="text-[18px]">
+          <p className="text-[18px] py-2 font-[cursive] text-black/70">
             Every child is born with natural curiosity and the ability to learn
           </p>
-          <p className="text-blue-900 underline cursor-pointer py-3 font-bold">
+          <p className="text-blue-900 underline cursor-pointer py-3 font-bold font-[cursive]">
             <Link to={"/whymontessori"}>Learn more</Link>
           </p>
         </div>
         <div>
           <img src={AboutBg} alt="" className="w-full h-auto" />
-          <h6 className="text-2xl font-bold pt-3">
+          <h6 className="text-2xl font-bold pt-3 font-[cursive]">
             Why Montessori Education is the Best Start for Your Child
           </h6>
-          <p className="text-[18px]">
+          <p className="text-[18px] py-2 font-[cursive] text-black/70">
             Every child is born with natural curiosity and the ability to learn
           </p>
-          <p className="text-blue-900 underline cursor-pointer py-3 font-bold">
+          <p className="text-blue-900 underline cursor-pointer py-3 font-bold font-[cursive]">
             <Link to={"/whymontessori"}>Learn more</Link>
           </p>
         </div>

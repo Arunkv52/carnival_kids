@@ -3,10 +3,10 @@ import { ReactLenis } from "lenis/react";
 import { useTransform, motion, useScroll } from "motion/react";
 import { useRef } from "react";
 import Footer from "./Footer";
-import Img1 from '../assets/13.jpg'
-import Img2 from '../assets/DSC00228.jpg'
-import Img3 from '../assets/DSC00222.jpg'
-import Img4 from '../assets/DSC00181.jpg'
+import Img1 from '../assets/4.webp'
+import Img2 from '../assets/6.webp'
+import Img3 from '../assets/DSC00222.webp'
+import Img4 from '../assets/DSC00181.webp'
 const projects = [
     {
         title: "Practical Life",
@@ -106,10 +106,10 @@ export const Card = ({
                 }}
                 className={`flex flex-col relative -top-[25%] md:h-[500px] h-dvh md:w-[80%] w-full rounded-md p-5 origin-top`}
             >
-                <h2 className="text-4xl md:text-center text-left font-semibold">{title}</h2>
+                <h2 className="text-6xl md:text-center text-left font-semibold font-[Delicious_Handrawn]">{title}</h2>
                 <div className={`md:flex h-full mt-5 gap-10`}>
                     <div className={`md:w-[60%] w-full relative`}>
-                        <p className="text-[18px]">{description}</p>
+                        <p className="text-[20px] font-[cursive]">{description}</p>
                     </div>
 
                     <div

@@ -11,13 +11,13 @@ const Contact = () => {
       <div
         className="abt-main w-full"
         style={{
-          backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${ContactBG})`,
+          backgroundImage: `url(${ContactBG})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
         <NavMenu />
-        <h2 className="text-white text-4xl font-semibold pt-[500px] px-10">
+        <h2 className="text-white text-6xl font-semibold pt-[500px] px-10 font-[Delicious_Handrawn]">
           Contact
         </h2>
       </div>
@@ -25,20 +25,20 @@ const Contact = () => {
       <div className="form-place md:px-20 px-5 py-20 md:flex justify-around">
         {/* Contact Info */}
         <div className="md:w-1/2">
-          <h2 className="md:text-4xl text-2xl">
+          <h2 className="md:text-4xl text-2xl font-[cursive]">
             At Carnival Kids Montessori, we don’t just prepare children for
             school – we prepare them for life!
           </h2>
           <ul className="py-10">
-            <li className="md:text-[20px] text-[20px] md:py-1 py-1">
+            <li className="md:text-[20px] text-[20px] md:py-1 py-1 font-[cursive]">
               <span className="font-semibold text-black/60">Mobile :</span> +91
               98402 22744
             </li>
-            <li className="md:text-[20px] text-[20px] md:py-1 py-1">
+            <li className="md:text-[20px] text-[20px] md:py-1 py-1 font-[cursive]">
               <span className="font-semibold text-black/60">Email :</span>{" "}
               vidhyatmt@gmail.com
             </li>
-            <li className="md:text-[20px] text-[20px] md:py-1 py-1">
+            <li className="md:text-[20px] text-[20px] md:py-1 py-1 font-[cursive]">
               <span className="font-semibold text-black/60">Address :</span> No
               9, Rajalakshmi Nagar, Subramaniam palayam, <br /> GN Mills,
               Coimbatore – 641029

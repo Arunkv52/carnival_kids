@@ -5,11 +5,10 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import Footer from "../components/Footer";
 import MyCarousal from "../components/MyCarousal";
 import ScrollVelocity from "../components/ScrollVelocity";
-import EducationImg from "../assets/DSC00203.jpg";
+import EducationImg from "../assets/DSC00181.webp";
 import PopupForm from "../components/PopupForm";
 import Fun3d from "../assets/cartoon/outer-space.jpg";
-import Fun from "../assets/cartoon/fun-3.jpg";
-import Learn from "../assets/cartoon/Learn.jpg";
+
 
 const Home = () => {
   // Get scroll progress

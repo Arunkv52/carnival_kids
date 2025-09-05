@@ -1,5 +1,5 @@
 .slider-1 {
-  background: url(/src/assets/Banner-1.jpg);
+  background: url(/src/assets/Banner-1.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7,7 +7,7 @@
   height: 100dvh;
 }
 .slider-2 {
-  background: url(/src/assets/Banner-2.jpg);
+  background: url(/src/assets/Banner-2.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,7 +15,7 @@
   height: 100dvh;
 }
 .slider-3 {
-  background: url(/src/assets/Banner-3.jpg);
+  background: url(/src/assets/Banner-3.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
