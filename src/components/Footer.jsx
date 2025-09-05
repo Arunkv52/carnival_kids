@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
           <div className="ftop-2 md:w-[25%] w-full text-end md:pt-0 pt-10">
             <Link to={"/contact"}>
-              <button className="bg-black text-white py-4 rounded-[50px] italic flex items-center gap-4 px-10 text-[20px] cursor-pointer font-[cursive]">
+              <button className="bg-black text-white py-4 rounded-[50px] flex items-center gap-4 px-10 text-[20px] cursor-pointer font-[cursive]">
                 Connect with us{" "}
                 <MoveUpRight className="bg-[#48a8df] rounded-[50px] p-1 md:w-10 w-7 md:h-10 h-7 hover:translate-x-6 transition-all" />
               </button>

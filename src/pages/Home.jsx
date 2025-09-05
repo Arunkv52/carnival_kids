@@ -24,7 +24,7 @@ const Home = () => {
             Welcome to Carnival Kids Montessori
           </h1>
           <div>
-            <p className="text-white md:text-[18px] text-[16px] md:pb-0 pb-5 italic font-bold font-[cursive]">
+            <p className="text-white md:text-[18px] text-[16px] md:pb-0 pb-5 font-bold font-[cursive]">
               we believe every child is naturally curious, capable, and eager to
               learn. Our Montessori environment nurtures independence,
               creativity, and confidence—helping children grow into
@@ -77,8 +77,8 @@ const Home = () => {
           <div>
             <h1 className="md:text-7xl text-3xl md:pb-10 pb-0 leading-20  font-[Delicious_Handrawn]">
               We Believe{" "}
-              <span className="bg-[#54b1e3] italic">Every Child</span> is Unique{" "}
-              <span className="bg-[#fef854] italic">and Learns</span>
+              <span className="bg-[#54b1e3]">Every Child</span> is Unique{" "}
+              <span className="bg-[#fef854]">and Learns</span>
             </h1>
           </div>
           <div className="">
@@ -159,7 +159,7 @@ const Home = () => {
             <h2 className="text-white md:text-5xl text-4xl font-bold pt-5 font-[Delicious_Handrawn]">
               Explore the World
             </h2>
-            <p className="text-white text-[17px] py-4 italic font-semibold font-[cursive]">
+            <p className="text-white text-[17px] py-4 font-semibold font-[cursive]">
               Through curiosity, play, and creativity, children discover
               knowledge beyond textbooks.
             </p>
@@ -206,7 +206,7 @@ const Home = () => {
             <h2 className="text-white md:text-5xl text-4xl  font-bold pt-5 font-[Delicious_Handrawn]">
               Grow with Confidence
             </h2>
-            <p className="text-white text-[17px] py-4 italic font-semibold font-[cursive]">
+            <p className="text-white text-[17px] py-4 font-semibold font-[cursive]">
               Nurturing every child to become confident, independent, and
               compassionate individuals.
             </p>
@@ -252,7 +252,7 @@ const Home = () => {
             <h2 className="text-white md:text-5xl text-4xl font-bold pt-5 font-[Delicious_Handrawn]">
               Learn at Own Pace
             </h2>
-            <p className="text-white text-[17px] py-4 italic font-semibold font-[cursive]">
+            <p className="text-white text-[17px] py-4 font-semibold font-[cursive]">
               Hands-on Montessori methods encourage independence and
               personalized learning.
             </p>
@@ -270,12 +270,12 @@ const Home = () => {
             <h3 className="text-black md:text-6xl text-3xl font-[Delicious_Handrawn] font-bold py-5">
               Building Tomorrow’s Compassionate Citizens
             </h3>
-            <p className="text-black/80 md:text-[18px] italic text-[16px] font-[cursive]">
+            <p className="text-black/80 md:text-[18px] text-[16px] font-[cursive]">
               We envision Carnival Kids as a place where children blossom into
               self-reliant, creative, and confident learners who are prepared
               not only for school but for life.
             </p>
-            <p className="text-black/80 md:text-[18px] italic text-[16px] font-[cursive]">
+            <p className="text-black/80 md:text-[18px] text-[16px] font-[cursive]">
               We aspire to empower young minds with values, skills, and
               knowledge to become compassionate citizens of tomorrow.
             </p>
@@ -338,7 +338,7 @@ const Home = () => {
               <h5 className="text-white text-3xl font-[Delicious_Handrawn] pt-5 pb-3">
                 Toddler (18 months – 3 years)
               </h5>
-              <p className="text-[18px] italic text-white font-[cursive]">
+              <p className="text-[18px] text-white font-[cursive]">
                 Building strong foundations in independence, communication, and
                 early language development.
               </p>
@@ -386,7 +386,7 @@ const Home = () => {
               <h5 className="text-white text-3xl font-[Delicious_Handrawn] pt-5 pb-3">
                 Primary (3 – 6 years)
               </h5>
-              <p className="text-[18px] italic text-white font-[cursive]">
+              <p className="text-[18px] text-white font-[cursive]">
                 Developing strong foundations in math, literacy, and social
                 interaction.
               </p>
@@ -434,7 +434,7 @@ const Home = () => {
               <h5 className="text-white text-3xl font-[Delicious_Handrawn] pt-5 pb-3">
                 Elementary (6 – 12 years)
               </h5>
-              <p className="text-[18px] italic text-white font-[cursive]">
+              <p className="text-[18px] text-white font-[cursive]">
                 Inspiring curiosity, collaboration, and critical thinking for
                 lifelong success.
               </p>

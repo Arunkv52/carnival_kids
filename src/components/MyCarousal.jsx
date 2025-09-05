@@ -23,7 +23,7 @@ const MyCarousal = () => {
                 <h2 className="text-4xl font-semibold pt-2 pb-2 text-black font-[Delicious_Handrawn]">
                   Learn
                 </h2>
-                <p className="text-[18px] italic font-[cursive]">
+                <p className="text-[18px]  font-[cursive]">
                   Children learn through hands-on experiences that spark
                   curiosity and creativity.
                 </p>
@@ -37,7 +37,7 @@ const MyCarousal = () => {
                 <h2 className="text-4xl font-semibold pt-2 pb-2 text-black font-[Delicious_Handrawn]">
                   Discovery
                 </h2>
-                <p className="text-[18px] italic font-[cursive]">
+                <p className="text-[18px]  font-[cursive]">
                   Books open the door to endless knowledge, inspiring young
                   minds to explore and imagine.
                 </p>
@@ -51,7 +51,7 @@ const MyCarousal = () => {
                 <h2 className="text-4xl font-semibold pt-2 pb-2 text-black font-[Delicious_Handrawn]">
                  Education
                 </h2>
-                <p className="text-[18px] italic font-[cursive]">
+                <p className="text-[18px]  font-[cursive]">
                   Through study and discovery, children build a strong
                   foundation for lifelong learning
                 </p>
@@ -65,7 +65,7 @@ const MyCarousal = () => {
                 <h2 className="text-4xl font-semibold pt-2 pb-2 text-black font-[Delicious_Handrawn]">
                   Knowledge
                 </h2>
-                <p className="text-[18px] italic font-[cursive]">
+                <p className="text-[18px]  font-[cursive]">
                   Knowledge grows when children explore, discover, and connect
                   ideas on their own.
                 </p>
