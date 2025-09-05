@@ -28,7 +28,7 @@ const NavMenu = () => {
       }}
         >
           <Link to={"/"}>
-            <img src={Logo} alt="Logo" className="md:w-[190px] w-[100px]" />
+            <img src={Logo} alt="Logo" className="md:w-[250px] w-[100px]" />
           </Link>
         </motion.div>
 

@@ -119,43 +119,7 @@ const Home = () => {
         </div>
         <div className="boxy md:px-10 md:py-0 py-10 md:flex justify-between items-center gap-5">
           <div className="bg-[#5cc5fd] p-10 md:m-0 m-3">
-            <svg
-              width="100"
-              height="100"
-              viewBox="0 0 200 200"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              {" "}
-              <g clip-path="url(#clip0_133_21)">
-                {" "}
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M99.9759 100C44.7585 99.987 -2.80187e-06 55.2204 -7.62939e-06 1.74846e-05L200 0C200 55.2204 155.242 99.987 100.024 100C155.242 100.013 200 144.78 200 200H1.11288e-06C1.11288e-06 144.78 44.7585 100.013 99.9759 100Z"
-                  fill="url(#paint0_linear_133_21)"
-                />{" "}
-              </g>{" "}
-              <defs>
-                {" "}
-                <linearGradient
-                  id="paint0_linear_133_21"
-                  x1="157.5"
-                  y1="32"
-                  x2="44"
-                  y2="147.5"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  {" "}
-                  <stop offset="0.0509862" stop-color="#FFB6E1" />{" "}
-                  <stop offset="1" stop-color="#FBE3EA" />{" "}
-                </linearGradient>{" "}
-                <clipPath id="clip0_133_21">
-                  {" "}
-                  <rect width="200" height="200" fill="white" />{" "}
-                </clipPath>{" "}
-              </defs>{" "}
-            </svg>
+           
             <h2 className="text-white md:text-5xl text-4xl font-bold pt-5 font-[Delicious_Handrawn]">
               Explore the World
             </h2>
@@ -166,43 +130,7 @@ const Home = () => {
           </div>
 
           <div className="bg-[#e1da0e] p-10  md:m-0 m-3">
-            <svg
-              width="100"
-              height="100"
-              viewBox="0 0 200 200"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              {" "}
-              <g clip-path="url(#clip0_133_21)">
-                {" "}
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M99.9759 100C44.7585 99.987 -2.80187e-06 55.2204 -7.62939e-06 1.74846e-05L200 0C200 55.2204 155.242 99.987 100.024 100C155.242 100.013 200 144.78 200 200H1.11288e-06C1.11288e-06 144.78 44.7585 100.013 99.9759 100Z"
-                  fill="url(#paint0_linear_133_21)"
-                />{" "}
-              </g>{" "}
-              <defs>
-                {" "}
-                <linearGradient
-                  id="paint0_linear_133_21"
-                  x1="157.5"
-                  y1="32"
-                  x2="44"
-                  y2="147.5"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  {" "}
-                  <stop offset="0.0509862" stop-color="#FFB6E1" />{" "}
-                  <stop offset="1" stop-color="#FBE3EA" />{" "}
-                </linearGradient>{" "}
-                <clipPath id="clip0_133_21">
-                  {" "}
-                  <rect width="200" height="200" fill="white" />{" "}
-                </clipPath>{" "}
-              </defs>{" "}
-            </svg>
+            
             <h2 className="text-white md:text-5xl text-4xl  font-bold pt-5 font-[Delicious_Handrawn]">
               Grow with Confidence
             </h2>
@@ -212,43 +140,7 @@ const Home = () => {
             </p>
           </div>
           <div className="bg-[#54b1e3] p-10  md:m-0 m-3">
-            <svg
-              width="100"
-              height="100"
-              viewBox="0 0 200 200"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              {" "}
-              <g clip-path="url(#clip0_133_21)">
-                {" "}
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M99.9759 100C44.7585 99.987 -2.80187e-06 55.2204 -7.62939e-06 1.74846e-05L200 0C200 55.2204 155.242 99.987 100.024 100C155.242 100.013 200 144.78 200 200H1.11288e-06C1.11288e-06 144.78 44.7585 100.013 99.9759 100Z"
-                  fill="url(#paint0_linear_133_21)"
-                />{" "}
-              </g>{" "}
-              <defs>
-                {" "}
-                <linearGradient
-                  id="paint0_linear_133_21"
-                  x1="157.5"
-                  y1="32"
-                  x2="44"
-                  y2="147.5"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  {" "}
-                  <stop offset="0.0509862" stop-color="#FFB6E1" />{" "}
-                  <stop offset="1" stop-color="#FBE3EA" />{" "}
-                </linearGradient>{" "}
-                <clipPath id="clip0_133_21">
-                  {" "}
-                  <rect width="200" height="200" fill="white" />{" "}
-                </clipPath>{" "}
-              </defs>{" "}
-            </svg>
+            
             <h2 className="text-white md:text-5xl text-4xl font-bold pt-5 font-[Delicious_Handrawn]">
               Learn at Own Pace
             </h2>
@@ -298,43 +190,6 @@ const Home = () => {
         <div className="md:flex justify-between items-start gap-5 py-10">
           <div className="bg-gray-500 p-10 max-w-fit">
             <div>
-              <svg
-                width="70"
-                height="70"
-                viewBox="0 0 200 200"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                {" "}
-                <g clip-path="url(#clip0_105_666)">
-                  {" "}
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M100 22C100 9.84974 90.1503 0 78 0H22C9.84974 0 0 9.84972 0 22V78.7194C0 90.8697 9.84974 100.719 22 100.719H78C90.1503 100.719 100 110.569 100 122.719V178C100 190.15 109.85 200 122 200H178C190.15 200 200 190.15 200 178V121.28C200 109.13 190.15 99.2805 178 99.2805H122C109.85 99.2805 100 89.4308 100 77.2805V22Z"
-                    fill="url(#paint0_linear_105_666)"
-                  />{" "}
-                </g>{" "}
-                <defs>
-                  {" "}
-                  <linearGradient
-                    id="paint0_linear_105_666"
-                    x1="14"
-                    y1="26"
-                    x2="179"
-                    y2="179.5"
-                    gradientUnits="userSpaceOnUse"
-                  >
-                    {" "}
-                    <stop stop-color="#E9B8FF" />{" "}
-                    <stop offset="1" stop-color="#F9ECFF" />{" "}
-                  </linearGradient>{" "}
-                  <clipPath id="clip0_105_666">
-                    {" "}
-                    <rect width="200" height="200" fill="white" />{" "}
-                  </clipPath>{" "}
-                </defs>{" "}
-              </svg>
               <h5 className="text-white text-3xl font-[Delicious_Handrawn] pt-5 pb-3">
                 Toddler (18 months – 3 years)
               </h5>
@@ -346,43 +201,6 @@ const Home = () => {
           </div>
           <div className="bg-gray-500 p-10 max-w-fit">
             <div>
-              <svg
-                width="70"
-                height="70"
-                viewBox="0 0 200 200"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                {" "}
-                <g clip-path="url(#clip0_105_666)">
-                  {" "}
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M100 22C100 9.84974 90.1503 0 78 0H22C9.84974 0 0 9.84972 0 22V78.7194C0 90.8697 9.84974 100.719 22 100.719H78C90.1503 100.719 100 110.569 100 122.719V178C100 190.15 109.85 200 122 200H178C190.15 200 200 190.15 200 178V121.28C200 109.13 190.15 99.2805 178 99.2805H122C109.85 99.2805 100 89.4308 100 77.2805V22Z"
-                    fill="url(#paint0_linear_105_666)"
-                  />{" "}
-                </g>{" "}
-                <defs>
-                  {" "}
-                  <linearGradient
-                    id="paint0_linear_105_666"
-                    x1="14"
-                    y1="26"
-                    x2="179"
-                    y2="179.5"
-                    gradientUnits="userSpaceOnUse"
-                  >
-                    {" "}
-                    <stop stop-color="#E9B8FF" />{" "}
-                    <stop offset="1" stop-color="#F9ECFF" />{" "}
-                  </linearGradient>{" "}
-                  <clipPath id="clip0_105_666">
-                    {" "}
-                    <rect width="200" height="200" fill="white" />{" "}
-                  </clipPath>{" "}
-                </defs>{" "}
-              </svg>
               <h5 className="text-white text-3xl font-[Delicious_Handrawn] pt-5 pb-3">
                 Primary (3 – 6 years)
               </h5>
@@ -394,43 +212,6 @@ const Home = () => {
           </div>
           <div className="bg-gray-500 p-10 max-w-fit">
             <div>
-              <svg
-                width="70"
-                height="70"
-                viewBox="0 0 200 200"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                {" "}
-                <g clip-path="url(#clip0_105_666)">
-                  {" "}
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M100 22C100 9.84974 90.1503 0 78 0H22C9.84974 0 0 9.84972 0 22V78.7194C0 90.8697 9.84974 100.719 22 100.719H78C90.1503 100.719 100 110.569 100 122.719V178C100 190.15 109.85 200 122 200H178C190.15 200 200 190.15 200 178V121.28C200 109.13 190.15 99.2805 178 99.2805H122C109.85 99.2805 100 89.4308 100 77.2805V22Z"
-                    fill="url(#paint0_linear_105_666)"
-                  />{" "}
-                </g>{" "}
-                <defs>
-                  {" "}
-                  <linearGradient
-                    id="paint0_linear_105_666"
-                    x1="14"
-                    y1="26"
-                    x2="179"
-                    y2="179.5"
-                    gradientUnits="userSpaceOnUse"
-                  >
-                    {" "}
-                    <stop stop-color="#E9B8FF" />{" "}
-                    <stop offset="1" stop-color="#F9ECFF" />{" "}
-                  </linearGradient>{" "}
-                  <clipPath id="clip0_105_666">
-                    {" "}
-                    <rect width="200" height="200" fill="white" />{" "}
-                  </clipPath>{" "}
-                </defs>{" "}
-              </svg>
               <h5 className="text-white text-3xl font-[Delicious_Handrawn] pt-5 pb-3">
                 Elementary (6 – 12 years)
               </h5>

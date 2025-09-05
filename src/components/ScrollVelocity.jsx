@@ -28,7 +28,7 @@ function useElementWidth(ref) {
 
 export const ScrollVelocity = ({
   scrollContainerRef,
-  texts = ['✦ Admission Open ✦ Age 3 to 6 Years', '✦ Pre-mont - Mont 1 - Mont 2 - Mont 3 ✦ Explore Campus book a tour'],
+  texts = [' Admission Open  Age 3 to 6 Years', ' Pre-mont - Mont 1 - Mont 2 - Mont 3  Explore Campus book a tour'],
   velocity = 100,
   className = "ScrollVelocity",
   damping = 50,
