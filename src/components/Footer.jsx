@@ -29,13 +29,13 @@ const Footer = () => {
             <h6 className="text-white/60 font-bold pb-5 font-[cursive]">Social Links</h6>
             <ul className="text-white text-[18px] ">
               <li className="hover:text-red-600 cursor-pointer pb-2 font-[cursive]">
-                <a href="#" className="md:flex justify-start items-center">
+                <a href="https://www.facebook.com/people/Carnival-Kids-Montessori/100057778115140/" className="md:flex justify-start items-center">
                   <RiFacebookFill />
                   Facebook
                 </a>
               </li>
               <li className="hover:text-red-600 cursor-pointer">
-                <a href="#" className="md:flex justify-start items-center font-[cursive]">
+                <a href="https://www.instagram.com/carnival_kids_montessori/" className="md:flex justify-start items-center font-[cursive]">
                   <RiInstagramFill /> Instagram
                 </a>
               </li>

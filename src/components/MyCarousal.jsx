@@ -6,10 +6,10 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import Fisherman from '../assets/cartoon/fisherman.jpg'
-import Book from '../assets/cartoon/books.jpg'
-import Study from '../assets/cartoon/Study.jpg'
-import StudyBook from '../assets/cartoon/Suceed.jpg'
+import Fisherman from "../assets/cartoon/fisherman.jpg";
+import Book from "../assets/cartoon/books.jpg";
+import Study from "../assets/cartoon/Study.jpg";
+import StudyBook from "../assets/cartoon/Suceed.jpg";
 
 const MyCarousal = () => {
   return (
@@ -23,9 +23,9 @@ const MyCarousal = () => {
                 <h2 className="text-4xl font-semibold pt-2 pb-2 text-black font-[Delicious_Handrawn]">
                   Learn
                 </h2>
-                <p className="text-[18px] italic">
-                  Through curiosity, play, and creativity, children discover
-                  knowledge beyond textbooks.
+                <p className="text-[18px] italic font-[cursive]">
+                  Children learn through hands-on experiences that spark
+                  curiosity and creativity.
                 </p>
               </div>
             </div>
@@ -35,11 +35,11 @@ const MyCarousal = () => {
               <img src={Book} alt="" />
               <div className="pt-5  pb-20 px-10 text-center">
                 <h2 className="text-4xl font-semibold pt-2 pb-2 text-black font-[Delicious_Handrawn]">
-                  Learn
+                  Discovery
                 </h2>
-                <p className="text-[18px] italic">
-                  Through curiosity, play, and creativity, children discover
-                  knowledge beyond textbooks.
+                <p className="text-[18px] italic font-[cursive]">
+                  Books open the door to endless knowledge, inspiring young
+                  minds to explore and imagine.
                 </p>
               </div>
             </div>
@@ -49,11 +49,11 @@ const MyCarousal = () => {
               <img src={Study} alt="" />
               <div className="pt-5  pb-20 px-10 text-center">
                 <h2 className="text-4xl font-semibold pt-2 pb-2 text-black font-[Delicious_Handrawn]">
-                  Learn
+                 Education
                 </h2>
-                <p className="text-[18px] italic">
-                  Through curiosity, play, and creativity, children discover
-                  knowledge beyond textbooks.
+                <p className="text-[18px] italic font-[cursive]">
+                  Through study and discovery, children build a strong
+                  foundation for lifelong learning
                 </p>
               </div>
             </div>
@@ -63,11 +63,11 @@ const MyCarousal = () => {
               <img src={StudyBook} alt="" />
               <div className="pt-5  pb-20 px-10 text-center">
                 <h2 className="text-4xl font-semibold pt-2 pb-2 text-black font-[Delicious_Handrawn]">
-                  Learn
+                  Knowledge
                 </h2>
-                <p className="text-[18px] italic">
-                  Through curiosity, play, and creativity, children discover
-                  knowledge beyond textbooks.
+                <p className="text-[18px] italic font-[cursive]">
+                  Knowledge grows when children explore, discover, and connect
+                  ideas on their own.
                 </p>
               </div>
             </div>

@@ -9,6 +9,7 @@ import lgThumbnail from "lightgallery/plugins/thumbnail";
 import "lightgallery/css/lightgallery.css";
 import "lightgallery/css/lg-zoom.css";
 import "lightgallery/css/lg-thumbnail.css";
+import '../components/LightboxGallery.css'
 
 // image import
 import Img0 from "../assets/DSC00181.webp";

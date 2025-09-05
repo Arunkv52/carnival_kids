@@ -24,7 +24,7 @@ const Gallery = () => {
           Gallery
         </h2>
       </div>
-      <div className="max-w-full px-20">
+      <div className="max-w-full px-10">
         <LightboxGallery />
       </div>
       <Footer />

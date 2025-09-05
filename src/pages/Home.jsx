@@ -9,7 +9,6 @@ import EducationImg from "../assets/DSC00181.webp";
 import PopupForm from "../components/PopupForm";
 import Fun3d from "../assets/cartoon/outer-space.jpg";
 
-
 const Home = () => {
   // Get scroll progress
   const { scrollYProgress } = useScroll();
@@ -22,14 +21,14 @@ const Home = () => {
       <div className="bg-[#54b1e3] md:px-50 px-5 py-20 ">
         <div className="md:flex justify-between items-end gap-5">
           <h1 className="text-white md:text-7xl text-4xl font-bold font-[Delicious_Handrawn]">
-            OUR <br />
-            MISSION
+            Welcome to Carnival Kids Montessori
           </h1>
           <div>
-            <p className="text-white md:text-[18px] text-[16px] md:pb-0 pb-5 italic font-bold">
-              Our mission is to build a strong foundation for lifelong learning
-              by creating a joyful, safe, and stimulating environment where
-              children can.
+            <p className="text-white md:text-[18px] text-[16px] md:pb-0 pb-5 italic font-bold font-[cursive]">
+              we believe every child is naturally curious, capable, and eager to
+              learn. Our Montessori environment nurtures independence,
+              creativity, and confidence—helping children grow into
+              compassionate, lifelong learners.
             </p>
           </div>
         </div>
@@ -160,7 +159,7 @@ const Home = () => {
             <h2 className="text-white md:text-5xl text-4xl font-bold pt-5 font-[Delicious_Handrawn]">
               Explore the World
             </h2>
-            <p className="text-white text-[17px] py-4 italic font-semibold">
+            <p className="text-white text-[17px] py-4 italic font-semibold font-[cursive]">
               Through curiosity, play, and creativity, children discover
               knowledge beyond textbooks.
             </p>
@@ -207,7 +206,7 @@ const Home = () => {
             <h2 className="text-white md:text-5xl text-4xl  font-bold pt-5 font-[Delicious_Handrawn]">
               Grow with Confidence
             </h2>
-            <p className="text-white text-[17px] py-4 italic font-semibold">
+            <p className="text-white text-[17px] py-4 italic font-semibold font-[cursive]">
               Nurturing every child to become confident, independent, and
               compassionate individuals.
             </p>
@@ -253,7 +252,7 @@ const Home = () => {
             <h2 className="text-white md:text-5xl text-4xl font-bold pt-5 font-[Delicious_Handrawn]">
               Learn at Own Pace
             </h2>
-            <p className="text-white text-[17px] py-4 italic font-semibold">
+            <p className="text-white text-[17px] py-4 italic font-semibold font-[cursive]">
               Hands-on Montessori methods encourage independence and
               personalized learning.
             </p>
@@ -271,12 +270,12 @@ const Home = () => {
             <h3 className="text-black md:text-6xl text-3xl font-[Delicious_Handrawn] font-bold py-5">
               Building Tomorrow’s Compassionate Citizens
             </h3>
-            <p className="text-black/80 md:text-[18px] italic text-[16px]">
+            <p className="text-black/80 md:text-[18px] italic text-[16px] font-[cursive]">
               We envision Carnival Kids as a place where children blossom into
               self-reliant, creative, and confident learners who are prepared
               not only for school but for life.
             </p>
-            <p className="text-black/80 md:text-[18px] italic text-[16px]">
+            <p className="text-black/80 md:text-[18px] italic text-[16px] font-[cursive]">
               We aspire to empower young minds with values, skills, and
               knowledge to become compassionate citizens of tomorrow.
             </p>
@@ -295,13 +294,13 @@ const Home = () => {
         <h3 className="text-4xl font-semibold font-[Delicious_Handrawn]">
           Our Programs
         </h3>
-       
+
         <div className="md:flex justify-between items-start gap-5 py-10">
           <div className="bg-gray-500 p-10 max-w-fit">
             <div>
               <svg
-                width="100"
-                height="100"
+                width="70"
+                height="70"
                 viewBox="0 0 200 200"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -337,18 +336,19 @@ const Home = () => {
                 </defs>{" "}
               </svg>
               <h5 className="text-white text-3xl font-[Delicious_Handrawn] pt-5 pb-3">
-               Toddler (18 months – 3 years)
+                Toddler (18 months – 3 years)
               </h5>
-              <p className="text-[18px] italic text-white">
-                Building independence and early language skills.
+              <p className="text-[18px] italic text-white font-[cursive]">
+                Building strong foundations in independence, communication, and
+                early language development.
               </p>
             </div>
           </div>
           <div className="bg-gray-500 p-10 max-w-fit">
             <div>
               <svg
-                width="100"
-                height="100"
+                width="70"
+                height="70"
                 viewBox="0 0 200 200"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -386,16 +386,17 @@ const Home = () => {
               <h5 className="text-white text-3xl font-[Delicious_Handrawn] pt-5 pb-3">
                 Primary (3 – 6 years)
               </h5>
-              <p className="text-[18px] italic text-white">
-                Developing strong foundations in math, literacy, and social interaction.
+              <p className="text-[18px] italic text-white font-[cursive]">
+                Developing strong foundations in math, literacy, and social
+                interaction.
               </p>
             </div>
           </div>
           <div className="bg-gray-500 p-10 max-w-fit">
             <div>
               <svg
-                width="100"
-                height="100"
+                width="70"
+                height="70"
                 viewBox="0 0 200 200"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -433,8 +434,9 @@ const Home = () => {
               <h5 className="text-white text-3xl font-[Delicious_Handrawn] pt-5 pb-3">
                 Elementary (6 – 12 years)
               </h5>
-              <p className="text-[18px] italic text-white">
-                Inspiring curiosity, collaboration, and critical thinking for lifelong success.
+              <p className="text-[18px] italic text-white font-[cursive]">
+                Inspiring curiosity, collaboration, and critical thinking for
+                lifelong success.
               </p>
             </div>
           </div>
