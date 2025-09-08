@@ -25,7 +25,7 @@ const Curriculam = () => {
 
       <div className="md:px-40 px-5 py-20">
         𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼
-        <h3 className="md:text-6xl text-4xl pb-5">
+        <h3 className="md:text-7xl text-4xl pb-5">
           Why Choose Montessori Education?
         </h3>
         <p className="md:text-2xl text-[20px] py-1">

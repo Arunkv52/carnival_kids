@@ -73,7 +73,7 @@ const Home = () => {
 
       {/* Image rounded start */}
       <div className="img-round md:px-10 px-5 md:py-10 py-0 hidden md:block">
-        <div className=" text-black text-left font-bold md:py-20 py-10 md:rounded-3xl rounded-none md:flex justify-around">
+        <div className=" text-black text-left font-bold md:py-20 py-10 md:rounded-3xl rounded-none md:flex justify-around gap-5">
           <div>
             <h1 className="md:text-6xl text-3xl md:pb-10 pb-0 leading-20  ">
               We Believe{" "}

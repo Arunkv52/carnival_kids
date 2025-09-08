@@ -28,13 +28,13 @@ const Footer = () => {
           <div className="fb-1 md:w-1/2 w-full pb-5">
             <h6 className="text-white/60 font-bold pb-5 text-2xl">Social Links</h6>
             <ul className="text-white text-[20px] ">
-              <li className="hover:text-red-600 cursor-pointer pb-2">
+              <li className="hover:text-[#000000] cursor-pointer pb-2">
                 <a href="https://www.facebook.com/people/Carnival-Kids-Montessori/100057778115140/" className="md:flex flex justify-start items-center gap-3">
                   <RiFacebookFill />
                   Facebook
                 </a>
               </li>
-              <li className="hover:text-red-600 cursor-pointer">
+              <li className="hover:text-[#000000] cursor-pointer">
                 <a href="https://www.instagram.com/carnival_kids_montessori/" className="md:flex flex justify-start items-center gap-3">
                   <RiInstagramFill /> Instagram
                 </a>
@@ -44,28 +44,28 @@ const Footer = () => {
           <div className="fb-2 md:w-1/4 w-full pb-5 md:mt-0 mt-5">
             <h6 className="text-white/60 font-bold pb-5 text-2xl">Quick Links</h6>
             <ul className="text-white text-[20px] md:flex flex flex-col">
-              <Link to={"/about"} className="hover:text-red-600 cursor-pointer">
+              <Link to={"/about"} className="hover:text-[#000000] cursor-pointer">
                 About
               </Link>
               <Link
                 to={"/curriculam"}
-                className="hover:text-red-600 cursor-pointer"
+                className="hover:text-[#000000] cursor-pointer"
               >
                 Curriculam
               </Link>
               <Link
                 to={"/gallery"}
-                className="hover:text-red-600 cursor-pointer"
+                className="hover:text-[#000000] cursor-pointer"
               >
                 Gallery
               </Link>
               <Link
                 to={"/contact"}
-                className="hover:text-red-600 cursor-pointer"
+                className="hover:text-[#000000] cursor-pointer"
               >
                 Contact
               </Link>
-              <Link to={"/blog"} className="hover:text-red-600 cursor-pointer">
+              <Link to={"/blog"} className="hover:text-[#000000] cursor-pointer">
                 Blog
               </Link>
             </ul>

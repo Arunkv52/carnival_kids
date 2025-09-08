@@ -42,54 +42,55 @@ export default function App() {
       modules={[EffectCoverflow, Pagination]} // ✅ keep this for Swiper v9+
       className="mySwiper"
     >
+
       <SwiperSlide>
         <div>
-          <img src={Img0} alt="slide 1" className="w-full h-auto md:h-dvh object-contain"/>
+          <img src={Img1} alt="slide 1" className="w-full h-auto md:h-dvh object-contain" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div>
-          <img src={Img1} alt="slide 1" className="w-full h-auto md:h-dvh object-contain"/>
+          <img src={Img2} alt="slide 1" className="w-full h-auto md:h-dvh object-contain" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div>
-          <img src={Img2} alt="slide 1" className="w-full h-auto md:h-dvh object-contain"/>
+          <img src={Img3} alt="slide 1" className="w-full h-auto md:h-dvh object-contain" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div>
-          <img src={Img3} alt="slide 1" className="w-full h-auto md:h-dvh object-contain"/>
+          <img src={Img4} alt="slide 1" className="w-full h-auto md:h-dvh object-contain" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div>
-          <img src={Img4} alt="slide 1" className="w-full h-auto md:h-dvh object-contain"/>
+          <img src={Img5} alt="slide 1" className="w-full h-auto md:h-dvh object-contain" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div>
-          <img src={Img5} alt="slide 1" className="w-full h-auto md:h-dvh object-contain"/>
+          <img src={Img6} alt="slide 1" className="w-full h-auto md:h-dvh object-contain" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div>
-          <img src={Img6} alt="slide 1" className="w-full h-auto md:h-dvh object-contain"/>
+          <img src={Img7} alt="slide 1" className="w-full h-auto md:h-dvh object-contain" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div>
-          <img src={Img7} alt="slide 1" className="w-full h-auto md:h-dvh object-contain"/>
+          <img src={Img8} alt="slide 1" className="w-full h-auto md:h-dvh object-contain" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
         <div>
-          <img src={Img8} alt="slide 1" className="w-full h-auto md:h-dvh object-contain"/>
+          <img src={Img9} alt="slide 1" className="w-full h-auto md:h-dvh object-contain" />
         </div>
       </SwiperSlide>
-       <SwiperSlide>
+      <SwiperSlide>
         <div>
-          <img src={Img9} alt="slide 1" className="w-full h-auto md:h-dvh object-contain"/>
+          <img src={Img0} alt="slide 1" className="w-full h-auto md:h-dvh object-contain" />
         </div>
       </SwiperSlide>
     </Swiper>

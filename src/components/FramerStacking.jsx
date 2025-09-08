@@ -6,7 +6,7 @@ import Footer from "./Footer";
 import Img1 from '../assets/4.webp'
 import Img2 from '../assets/6.webp'
 import Img3 from '../assets/DSC00222.webp'
-import Img4 from '../assets/DSC00181.webp'
+import Img4 from '../assets/9.webp'
 const projects = [
     {
         title: "Practical Life",

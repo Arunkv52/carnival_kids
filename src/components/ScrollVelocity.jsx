@@ -28,7 +28,7 @@ function useElementWidth(ref) {
 
 export const ScrollVelocity = ({
   scrollContainerRef,
-  texts = [' Admission Open  Age 3 to 6 Years', ' Pre-mont - Mont 1 - Mont 2 - Mont 3  Explore Campus book a tour'],
+  texts = [' Admission Open -  Age 3 to 6 Years', ' Pre-mont - Mont 1 - Mont 2 - Mont 3 - Explore Campus book a tour'],
   velocity = 100,
   className = "ScrollVelocity",
   damping = 50,
@@ -118,7 +118,7 @@ export const ScrollVelocity = ({
         style={parallaxStyle}
       >
         <motion.div
-          className={`${scrollerClassName} flex whitespace-nowrap text-center text-4xl font-bold tracking-[-0.02em]  drop-shadow md:text-[5rem] md:leading-[100px]`}
+          className={`${scrollerClassName} flex whitespace-nowrap text-center text-4xl font-bold tracking-[-0.02em]  drop-shadow md:text-7xl md:leading-[100px]`}
           style={{ x, ...scrollerStyle }}
         >
           {spans}
