@@ -210,17 +210,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div className="bg-gray-500 p-10 max-w-fit md:m-0 m-1">
-            <div>
-              <h5 className="text-white text-3xl py-5">
-                Elementary (6 – 12 years)
-              </h5>
-              <p className="text-[18px] text-white">
-                Inspiring curiosity, collaboration, and critical thinking for
-                lifelong success.
-              </p>
-            </div>
-          </div>
+          
         </div>
       </div>
 
