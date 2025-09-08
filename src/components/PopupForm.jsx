@@ -14,10 +14,10 @@ const PopupForm = () => {
       >
         <FaMessage className="text-2xl" />
       </div>
-      <div className="some-msg fixed md:bottom-3 bottom-10 z-10 md:left-20 left-15">
+      <div className="some-msg fixed md:w-1/3 w-full md:bottom-5 bottom-0 z-10 md:left-20 left-0">
         {open && (
-          <div className="bg-[#0f2734] h-auto">
-            <form action="" className="md:px-10 px-8 md:py-4 py-2 rounded-2xl">
+          <div className="bg-[#0f2734]  h-auto">
+            <form action="" className="md:px-10 px-5 md:py-4 py-0 rounded-2xl">
               <div
                 className=" flex justify-end"
                 onClick={() => {
@@ -27,7 +27,7 @@ const PopupForm = () => {
                 <IoIosCloseCircle className="text-2xl hover:opacity-50 hover:cursor-pointer text-white" />
               </div>
 
-              <h1 className="text-left md:text-4xl text-[20px] text-white font-semibold py-2">
+              <h1 className="text-left md:text-4xl text-4xl text-white font-semibold py-2">
                 Block your child seat of <br /> Carnival Kids
               </h1>
 

@@ -33,7 +33,7 @@ const NavMenu = () => {
         </motion.div>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex justify-start gap-8 text-[18px] hover:cursor-pointer">
+        <ul className="hidden md:flex justify-start gap-8 text-[20px] hover:cursor-pointer">
           <Link
             to={"/"}
             className="relative cursor-pointer 
@@ -105,7 +105,7 @@ const NavMenu = () => {
 
         {/* Mobile Menu */}
         {open && (
-          <div className="absolute top-[90px] left-0 w-full bg-white/70 text-black font-bold rounded-[20px] shadow-md md:hidden z-50">
+          <div className="absolute top-[60px] left-0 w-full mx-5 bg-white/70 text-black font-bold rounded-[2px] shadow-md md:hidden z-50">
             <ul className="flex flex-col gap-4 md:p-5 p-2 text-lg">
               <Link to={"/"} className="hover:underline">
                 Home

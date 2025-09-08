@@ -20,11 +20,11 @@ const Gallery = () => {
         }}
       >
         <NavMenu />
-        <h2 className="text-white text-6xl font-semibold pt-[500px] px-10 font-[Delicious_Handrawn]">
+        <h2 className="text-white text-6xl font-semibold pt-[500px] px-10">
           Gallery
         </h2>
       </div>
-      <div className="max-w-full px-10">
+      <div className="max-w-full md:px-30 px-0 py-20">
         <LightboxGallery />
       </div>
       <Footer />

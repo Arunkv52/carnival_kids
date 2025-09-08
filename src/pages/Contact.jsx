@@ -17,28 +17,28 @@ const Contact = () => {
         }}
       >
         <NavMenu />
-        <h2 className="text-white text-6xl font-semibold pt-[500px] px-10 font-[Delicious_Handrawn]">
+        <h2 className="text-white text-6xl font-semibold pt-[500px] md:px-10 px-5">
           Contact
         </h2>
       </div>
 
-      <div className="form-place md:px-20 px-5 py-20 md:flex justify-around">
+      <div className="form-place md:px-10 px-5 py-20 md:flex justify-around">
         {/* Contact Info */}
         <div className="md:w-1/2">
-          <h2 className="md:text-4xl text-2xl font-[cursive]">
+          <h2 className="md:text-4xl text-2xl">
             At Carnival Kids Montessori, we don’t just prepare children for
             school – we prepare them for life!
           </h2>
           <ul className="py-10">
-            <li className="md:text-[20px] text-[20px] md:py-1 py-1 font-[cursive]">
+            <li className="md:text-[20px] text-[20px] md:py-1 py-1">
               <span className="font-semibold text-black/60">Mobile :</span> +91
               98402 22744
             </li>
-            <li className="md:text-[20px] text-[20px] md:py-1 py-1 font-[cursive]">
+            <li className="md:text-[20px] text-[20px] md:py-1 py-1">
               <span className="font-semibold text-black/60">Email :</span>{" "}
               vidhyatmt@gmail.com
             </li>
-            <li className="md:text-[20px] text-[20px] md:py-1 py-1 font-[cursive]">
+            <li className="md:text-[20px] text-[20px] md:py-1 py-1">
               <span className="font-semibold text-black/60">Address :</span> No
               9, Rajalakshmi Nagar, Subramaniam palayam, <br /> GN Mills,
               Coimbatore – 641029
@@ -46,8 +46,8 @@ const Contact = () => {
           </ul>
         </div>
         {/* Contact Form */}
-        <div className="md:w-1/2">
-          <form action="" className="px-10 py-0 rounded-2xl">
+        <div className="md:w-1/2 w-full">
+          <form action="" className="md:px-10 px-0 py-0 rounded-2xl">
             <div className="py-2">
               <label htmlFor="name" className="text-white"></label>
               <input
@@ -56,7 +56,7 @@ const Contact = () => {
                 id=""
                 placeholder="Enter parent name"
                 required
-                className="bg-black w-full py-2 px-3 text-white border-0 outline-0"
+                className="bg-black w-full md:py-2 py-4 px-3 text-white border-0 outline-0"
               />
             </div>
             <div className="py-2">
@@ -67,14 +67,14 @@ const Contact = () => {
                 id=""
                 placeholder="Enter child name"
                 required
-                className="bg-black w-full py-2 px-3 text-white border-0 outline-0"
+                className="bg-black w-full md:py-2 py-4 px-3 text-white border-0 outline-0"
               />
             </div>
             <div className="py-2">
               <select
                 name="enquiry"
                 id=""
-                className="bg-black w-full py-2 px-3 text-white border-0 outline-0"
+                className="bg-black w-full md:py-2 py-4 px-3 text-white border-0 outline-0"
                 required
               >
                 <option value="" selected>
@@ -84,7 +84,7 @@ const Contact = () => {
                 <option value="daughter">Daughter</option>
               </select>
             </div>
-            
+
 
             <div className="py-2">
               <label htmlFor="tel" className="text-white"></label>
@@ -94,7 +94,7 @@ const Contact = () => {
                 id=""
                 placeholder="Enter phone number"
                 required
-                className="bg-black w-full py-2 px-3 text-white border-0 outline-0"
+                className="bg-black w-full md:py-2 py-4 px-3 text-white border-0 outline-0"
               />
             </div>
             <div className="py-2">
@@ -105,7 +105,7 @@ const Contact = () => {
                 id=""
                 placeholder="Enter email address"
                 required
-                className="bg-black w-full py-2 px-3 text-white border-0 outline-0"
+                className="bg-black w-full md:py-2 py-4 px-3 text-white border-0 outline-0"
               />
             </div>
 
@@ -114,7 +114,7 @@ const Contact = () => {
               <select
                 name="grade"
                 id=""
-                className="bg-black w-full py-2 px-3 text-white border-0 outline-0"
+                className="bg-black w-full md:py-2 py-4 px-3 text-white border-0 outline-0"
                 required
               >
                 <option value="" selected>
@@ -132,7 +132,7 @@ const Contact = () => {
               <select
                 name="grade"
                 id=""
-                className="bg-black w-full py-2 px-3 text-white border-0 outline-0"
+                className="bg-black w-full md:py-2 py-4 px-3 text-white border-0 outline-0"
                 required
               >
                 <option value="" selected>
@@ -153,7 +153,7 @@ const Contact = () => {
         </div>
       </div>
       {/* Embedded Map */}
-      <div className="md:w-full md:px-20">
+      <div className="md:w-full md:px-10">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.6647093664506!2d76.9354615!3d11.0637452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f61be0a53b27%3A0x1787c85597f4d28e!2sCarnival%20Kids!5e0!3m2!1sen!2sus!4v1756730835115!5m2!1sen!2sus"
           className="w-full h-1/2 object-cover"

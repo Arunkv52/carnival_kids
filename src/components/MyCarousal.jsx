@@ -20,10 +20,10 @@ const MyCarousal = () => {
             <div>
               <img src={Fisherman} alt="" />
               <div className="pt-5  pb-20 px-10 text-center">
-                <h2 className="text-4xl font-semibold pt-2 pb-2 text-black font-[Delicious_Handrawn]">
+                <h2 className="text-4xl font-semibold pt-2 pb-2 text-black ">
                   Learn
                 </h2>
-                <p className="text-[18px]  font-[cursive]">
+                <p className="text-[20px]">
                   Children learn through hands-on experiences that spark
                   curiosity and creativity.
                 </p>
@@ -34,10 +34,10 @@ const MyCarousal = () => {
             <div>
               <img src={Book} alt="" />
               <div className="pt-5  pb-20 px-10 text-center">
-                <h2 className="text-4xl font-semibold pt-2 pb-2 text-black font-[Delicious_Handrawn]">
+                <h2 className="text-4xl font-semibold pt-2 pb-2 text-black ">
                   Discovery
                 </h2>
-                <p className="text-[18px]  font-[cursive]">
+                <p className="text-[20px]">
                   Books open the door to endless knowledge, inspiring young
                   minds to explore and imagine.
                 </p>
@@ -48,10 +48,10 @@ const MyCarousal = () => {
             <div>
               <img src={Study} alt="" />
               <div className="pt-5  pb-20 px-10 text-center">
-                <h2 className="text-4xl font-semibold pt-2 pb-2 text-black font-[Delicious_Handrawn]">
+                <h2 className="text-4xl font-semibold pt-2 pb-2 text-black ">
                  Education
                 </h2>
-                <p className="text-[18px]  font-[cursive]">
+                <p className="text-[20px]">
                   Through study and discovery, children build a strong
                   foundation for lifelong learning
                 </p>
@@ -62,10 +62,10 @@ const MyCarousal = () => {
             <div>
               <img src={StudyBook} alt="" />
               <div className="pt-5  pb-20 px-10 text-center">
-                <h2 className="text-4xl font-semibold pt-2 pb-2 text-black font-[Delicious_Handrawn]">
+                <h2 className="text-4xl font-semibold pt-2 pb-2 text-black ">
                   Knowledge
                 </h2>
-                <p className="text-[18px]  font-[cursive]">
+                <p className="text-[20px]">
                   Knowledge grows when children explore, discover, and connect
                   ideas on their own.
                 </p>

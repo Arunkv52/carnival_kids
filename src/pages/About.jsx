@@ -19,18 +19,18 @@ const About = () => {
         }}
       >
         <NavMenu />
-        <h2 className="text-white text-6xl font-semibold pt-[500px] px-10 font-[Delicious_Handrawn]">
+        <h2 className="text-white text-6xl font-semibold pt-[500px] px-10">
           About
         </h2>
       </div>
       <div className="py-20 px-10 md:flex justify-between gap-3">
         <div className="md:w-1/2 w-full">
-          <h5 className="text-end md:text-3xl text-[20px] font-normal font-[cursive]">
+          <h5 className="text-end md:text-3xl text-[20px] font-normal">
             learn through   <br /> hands-on experiences, <br /> independence, and play.
           </h5>
         </div>
         <div className="md:w-1/2 w-full md:py-0 py-3 md:text-5xl text-4xl font-bold uppercase border-l-[30px] border-l-blue-300">
-          <div className="relative -left-4 font-[Delicious_Handrawn]">
+          <div className="relative -left-4">
             <p>Responsibility</p>
             <p>Effort</p>
             <p>Attitude</p>
@@ -45,7 +45,7 @@ const About = () => {
           <img src={abtImage} alt=""/>
         </div>
         <div>
-          <p className="text-3xl px-5 md:py-0 py-10 font-[cursive]">
+          <p className="md:text-3xl text-2xl px-5 md:py-0 py-10">
             Welcome to Carnival Kids Montessori School, where learning is not
             just about books, but about discovering the world through curiosity
             and creativity. Located in GN Mills, Coimbatore, we provide a safe
@@ -97,12 +97,12 @@ const About = () => {
               </clipPath>{" "}
             </defs>{" "}
           </motion.svg>
-          <h3 className="text-5xl font-bold uppercase text-white font-[Delicious_Handrawn]">
+          <h3 className="text-5xl font-bold uppercase text-white py-2">
             Montessori Education
           </h3>
         </div>
         <div className="abt-right text-white/60">
-          <p className="py-2 text-[18px] font-[cursive]">
+          <p className="py-2 md:text-[20px] text-[21px]">
             The Montessori Method of education developed by Dr. Maria Montessori
             is a child-centered, development-based approach to education. Dr.
             Maria Montessori observed that the child absorbs from the
@@ -112,7 +112,7 @@ const About = () => {
             used specially designed materials, to incite the child’s inner
             desire to learn.
           </p>
-          <p className="py-2 text-[18px] font-[cursive]">
+          <p className="py-2 md:text-[20px] text-[21px]">
             The period from birth to six years the young child has special
             powers. The child learns by unconsciously taking in everything
             around him and constructs himself, just like a sponge in water.
@@ -120,7 +120,7 @@ const About = () => {
             his environment through living in his environment. He does this
             easily and naturally.
           </p>
-          <p className="py-2 text-[18px] font-[cursive]">
+          <p className="py-2 md:text-[20px] text-[21px]">
             From birth to three years old, the young child unknowingly or
             unconsciously acquires his basic abilities. The child’s work during
             this period is to become independent from the adult for his basic
@@ -133,7 +133,7 @@ const About = () => {
             Montessori Environment.
           </p>
 
-          <h5 className="text-white font-bold pt-10 font-[cursive]">
+          <h5 className="text-white font-bold pt-5 md:text-[20px] text-[21px]">
             AMI Certified Montessori Adult
           </h5>
           <img src={Ami} alt="" className="w-[150px] pt-2" />
@@ -142,7 +142,7 @@ const About = () => {
 
       {/* Logo */}
       <div className="md:flex flex-col justify-center">
-        <h1 className="md:text-3xl text-2xl md:px-50 px-5 py-20 font-[cursive]">
+        <h1 className="md:text-3xl text-2xl md:px-50 px-5 py-20">
           <motion.svg
             width="100"
             height="100"

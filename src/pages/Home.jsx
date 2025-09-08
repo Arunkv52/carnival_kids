@@ -20,11 +20,11 @@ const Home = () => {
       {/* Start */}
       <div className="bg-[#54b1e3] md:px-50 px-5 py-20 ">
         <div className="md:flex justify-between items-end gap-5">
-          <h1 className="text-white md:text-7xl text-4xl font-bold font-[Delicious_Handrawn]">
+          <h1 className="text-white md:text-6xl text-4xl font-bold ">
             Welcome to Carnival Kids Montessori
           </h1>
           <div>
-            <p className="text-white md:text-[18px] text-[16px] md:pb-0 pb-5 font-bold font-[cursive]">
+            <p className="text-white md:text-2xl text-[20px] md:pb-0 pb-5">
               we believe every child is naturally curious, capable, and eager to
               learn. Our Montessori environment nurtures independence,
               creativity, and confidence—helping children grow into
@@ -75,10 +75,10 @@ const Home = () => {
       <div className="img-round md:px-10 px-5 md:py-10 py-0 hidden md:block">
         <div className=" text-black text-left font-bold md:py-20 py-10 md:rounded-3xl rounded-none md:flex justify-around">
           <div>
-            <h1 className="md:text-7xl text-3xl md:pb-10 pb-0 leading-20  font-[Delicious_Handrawn]">
+            <h1 className="md:text-6xl text-3xl md:pb-10 pb-0 leading-20  ">
               We Believe{" "}
               <span className="bg-[#54b1e3]">Every Child</span> is Unique{" "}
-              <span className="bg-[#fef854]">and Learns</span>
+              <span className="bg-[#fefa9c]">and Learns</span>
             </h1>
           </div>
           <div className="">
@@ -111,40 +111,40 @@ const Home = () => {
       <div className="md:pt-0 md:pb-30 pb-0 py-10">
         <div className="md:px-10 px-5">
           <div>
-            <h4 className="md:text-6xl text-4xl font-[Delicious_Handrawn] font-bold md:pb-10 pb-3">
+            <h4 className="md:text-6xl text-4xl font-bold md:pb-10 pb-3">
               At Carnival Kids, we don’t just teach – we inspire a love for
               learning!
             </h4>
           </div>
         </div>
         <div className="boxy md:px-10 md:py-0 py-10 md:flex justify-between items-center gap-5">
-          <div className="bg-[#5cc5fd] p-10 md:m-0 m-3">
+          <div className="bg-[#5cc5fd] py-15 px-10 md:m-0 m-3">
            
-            <h2 className="text-white md:text-5xl text-4xl font-bold pt-5 font-[Delicious_Handrawn]">
+            <h2 className="text-white md:text-5xl text-4xl pt-5 ">
               Explore the World
             </h2>
-            <p className="text-white text-[17px] py-4 font-semibold font-[cursive]">
+            <p className="text-white text-[20px] py-4">
               Through curiosity, play, and creativity, children discover
               knowledge beyond textbooks.
             </p>
           </div>
 
-          <div className="bg-[#e1da0e] p-10  md:m-0 m-3">
+          <div className="bg-[#3c89b2] py-15 px-10  md:m-0 m-3">
             
-            <h2 className="text-white md:text-5xl text-4xl  font-bold pt-5 font-[Delicious_Handrawn]">
+            <h2 className="text-white md:text-5xl text-4xl  pt-5 ">
               Grow with Confidence
             </h2>
-            <p className="text-white text-[17px] py-4 font-semibold font-[cursive]">
+            <p className="text-white text-[20px] py-4">
               Nurturing every child to become confident, independent, and
               compassionate individuals.
             </p>
           </div>
-          <div className="bg-[#54b1e3] p-10  md:m-0 m-3">
+          <div className="bg-[#5cc5fd] py-15 px-10  md:m-0 m-3">
             
-            <h2 className="text-white md:text-5xl text-4xl font-bold pt-5 font-[Delicious_Handrawn]">
+            <h2 className="text-white md:text-5xl text-4xl pt-5 ">
               Learn at Own Pace
             </h2>
-            <p className="text-white text-[17px] py-4 font-semibold font-[cursive]">
+            <p className="text-white text-[20px] py-4">
               Hands-on Montessori methods encourage independence and
               personalized learning.
             </p>
@@ -156,18 +156,18 @@ const Home = () => {
       <div className="black-box md:px-10 px-5 bg-[#fdfdfd]">
         <div className="md:flex justify-between gap-5">
           <div className="box-left md:w-1/2 w-full md:py-20 py-10 md:px-10 px-2">
-            <p className="text-black py-1 px-3 rounded-2xl bg-[#fef854] font-[Delicious_Handrawn] w-fit">
+            <p className="text-black py-1 px-3 rounded-2xl bg-[#fefa9c]  w-fit">
               Our Vision
             </p>
-            <h3 className="text-black md:text-6xl text-3xl font-[Delicious_Handrawn] font-bold py-5">
+            <h3 className="text-black md:text-6xl text-4xl  font-bold py-5">
               Building Tomorrow’s Compassionate Citizens
             </h3>
-            <p className="text-black/80 md:text-[18px] text-[16px] font-[cursive]">
+            <p className="text-black/80 md:text-[20px] text-[20px]">
               We envision Carnival Kids as a place where children blossom into
               self-reliant, creative, and confident learners who are prepared
               not only for school but for life.
             </p>
-            <p className="text-black/80 md:text-[18px] text-[16px] font-[cursive]">
+            <p className="text-black/80 md:text-[20px] text-[20px]">
               We aspire to empower young minds with values, skills, and
               knowledge to become compassionate citizens of tomorrow.
             </p>
@@ -182,40 +182,40 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="py-10 px-10">
-        <h3 className="text-4xl font-semibold font-[Delicious_Handrawn]">
+      <div className="py-10 md:px-10 px-5">
+        <h3 className="text-4xl font-semibold ">
           Our Programs
         </h3>
 
         <div className="md:flex justify-between items-start gap-5 py-10">
-          <div className="bg-gray-500 p-10 max-w-fit">
+          <div className="bg-gray-500 md:p-10 p-6 max-w-fit md:m-0 m-1">
             <div>
-              <h5 className="text-white text-3xl font-[Delicious_Handrawn] pt-5 pb-3">
+              <h5 className="text-white text-3xl py-5">
                 Toddler (18 months – 3 years)
               </h5>
-              <p className="text-[18px] text-white font-[cursive]">
+              <p className="text-[20px] text-white">
                 Building strong foundations in independence, communication, and
                 early language development.
               </p>
             </div>
           </div>
-          <div className="bg-gray-500 p-10 max-w-fit">
+          <div className="bg-gray-500 p-10 max-w-fit md:m-0 m-1">
             <div>
-              <h5 className="text-white text-3xl font-[Delicious_Handrawn] pt-5 pb-3">
+              <h5 className="text-white text-3xl  py-5">
                 Primary (3 – 6 years)
               </h5>
-              <p className="text-[18px] text-white font-[cursive]">
+              <p className="text-[20px] text-white">
                 Developing strong foundations in math, literacy, and social
                 interaction.
               </p>
             </div>
           </div>
-          <div className="bg-gray-500 p-10 max-w-fit">
+          <div className="bg-gray-500 p-10 max-w-fit md:m-0 m-1">
             <div>
-              <h5 className="text-white text-3xl font-[Delicious_Handrawn] pt-5 pb-3">
+              <h5 className="text-white text-3xl py-5">
                 Elementary (6 – 12 years)
               </h5>
-              <p className="text-[18px] text-white font-[cursive]">
+              <p className="text-[18px] text-white">
                 Inspiring curiosity, collaboration, and critical thinking for
                 lifelong success.
               </p>

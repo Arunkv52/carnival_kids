@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
 
 
 * {
@@ -7,7 +7,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "TikTok Sans","cursive",sans-serif, "Delicious Handrawn";
+  font-family: "Story Script", sans-serif;
   background-color: #ffffff;
   --sb-track-color: #ffffff;
   --sb-thumb-color: #da251c;
