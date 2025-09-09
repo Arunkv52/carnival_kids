@@ -17,41 +17,17 @@ export default function SimpleSlider() {
     <Slider {...settings}>
       <div>
         <div className="slider-1 cursor-grab">
-          <div className="slider-txt relative top-[65%] left-8">
-           
-            <p className="text-black py-1 px-3 rounded-2xl bg-[#fef854] w-fit">
-              Welcome to
-            </p>
-            <h6 className="text-white md:text-7xl text-4xl py-2 font-semibold">
-              Explore, Learn, Grow <br />The Montessori Way
-            </h6>
-          </div>
+          
         </div>
       </div>
       <div>
         <div className="slider-2 cursor-grab">
-          <div className="slider-txt relative top-[65%] left-8">
-           
-            <p className="text-black py-1 px-3 rounded-2xl bg-[#fef854] w-fit">
-              Welcome to
-            </p>
-            <h6 className="text-white md:text-7xl text-4xl py-2 font-semibold">
-              Explore, Learn, Grow <br />The Montessori Way
-            </h6>
-          </div>
+          
         </div>
       </div>
       <div>
         <div className="slider-3 cursor-grab">
-           <div className="slider-txt relative top-[65%] left-8">
            
-            <p className="text-black py-1 px-3 rounded-2xl bg-[#fef854] w-fit">
-              Welcome to
-            </p>
-            <h6 className="text-white md:text-7xl text-4xl py-2 font-semibold">
-              Explore, Learn, Grow <br />The Montessori Way
-            </h6>
-          </div>
         </div>
       </div>
     </Slider>

@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
         <div className="footer-bottom md:pt-20 pt-10 md:flex flex flex-wrap justify-between">
           <div className="fb-1 md:w-1/2 w-full pb-5">
-            <h6 className="text-white/60 font-bold pb-5 text-2xl">Social Links</h6>
+            <h6 className="text-white/60 font-bold pb-5 text-[20px]">Social Links</h6>
             <ul className="text-white text-[20px] ">
               <li className="hover:text-[#000000] cursor-pointer pb-2">
                 <a href="https://www.facebook.com/people/Carnival-Kids-Montessori/100057778115140/" className="md:flex flex justify-start items-center gap-3">
@@ -42,7 +42,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="fb-2 md:w-1/4 w-full pb-5 md:mt-0 mt-5">
-            <h6 className="text-white/60 font-bold pb-5 text-2xl">Quick Links</h6>
+            <h6 className="text-white/60 font-bold pb-5 text-[20px]">Quick Links</h6>
             <ul className="text-white text-[20px] md:flex flex flex-col">
               <Link to={"/about"} className="hover:text-[#000000] cursor-pointer">
                 About
@@ -72,19 +72,19 @@ const Footer = () => {
           </div>
           <div className="fb-3 md:w-1/4 w-full md:pt-0 pt-10">
             <ul className="text-white">
-              <h6 className="text-white/60 font-bold pb-5 text-2xl">Address</h6>
-              <li className="text-[20px] text-white">
+              <h6 className="text-white/60 font-bold pb-5 text-[20px]">Address</h6>
+              <li className="text-[18px] text-white">
                 No 9, Rajalakshmi Nagar, Subramaniam palayam, GN Mills,
                 Coimbatore – 641029
               </li>
             </ul>
             <ul className="text-white md:pt-5 pt-3 md:mt-0 mt-3">
-              <h6 className="text-white/60 font-bold pb-3 text-2xl">Contact</h6>
-              <li className="text-[20px] text-white">
+              <h6 className="text-white/60 font-bold pb-3 text-[20px]">Contact</h6>
+              <li className="text-[18px] text-white">
                 Mobile : +91 98402 22744
               </li>
 
-              <li className="text-[20px] text-white">
+              <li className="text-[18px] text-white">
                 Email : info@carnivalkidsmontessori.com{" "}
               </li>
             </ul>

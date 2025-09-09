@@ -56,7 +56,7 @@ const About = () => {
       </div>
 
       {/* abt us */}
-      <div className="md:flex justify-between items-start gap-10 md:px-30 px-5 py-20 bg-blue-700">
+      <div className="md:flex justify-between items-start gap-10 md:px-30 px-5 py-20 bg-[#f6ddee]">
         <div className="abt-left md:w-1/2 w-full">
           <motion.svg
             width="100"
@@ -97,12 +97,12 @@ const About = () => {
               </clipPath>{" "}
             </defs>{" "}
           </motion.svg>
-          <h3 className="text-5xl font-bold uppercase text-white py-2">
+          <h3 className="text-5xl font-bold uppercase py-2">
             Montessori Education
           </h3>
         </div>
-        <div className="abt-right text-white/60">
-          <p className="py-2 md:text-[20px] text-[21px]">
+        <div className="abt-right ">
+          <p className="py-2 md:text-[18px] text-[21px]">
             The Montessori Method of education developed by Dr. Maria Montessori
             is a child-centered, development-based approach to education. Dr.
             Maria Montessori observed that the child absorbs from the
@@ -112,7 +112,7 @@ const About = () => {
             used specially designed materials, to incite the child’s inner
             desire to learn.
           </p>
-          <p className="py-2 md:text-[20px] text-[21px]">
+          <p className="py-2 md:text-[18px] text-[21px]">
             The period from birth to six years the young child has special
             powers. The child learns by unconsciously taking in everything
             around him and constructs himself, just like a sponge in water.
@@ -120,7 +120,7 @@ const About = () => {
             his environment through living in his environment. He does this
             easily and naturally.
           </p>
-          <p className="py-2 md:text-[20px] text-[21px]">
+          <p className="py-2 md:text-[18px] text-[21px]">
             From birth to three years old, the young child unknowingly or
             unconsciously acquires his basic abilities. The child’s work during
             this period is to become independent from the adult for his basic
@@ -133,7 +133,7 @@ const About = () => {
             Montessori Environment.
           </p>
 
-          <h5 className="text-white font-bold pt-5 md:text-[20px] text-[21px]">
+          <h5 className="font-bold pt-5 md:text-[20px] text-[21px]">
             AMI Certified Montessori Adult
           </h5>
           <img src={Ami} alt="" className="w-[150px] pt-2" />

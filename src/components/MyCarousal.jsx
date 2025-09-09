@@ -6,10 +6,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import Fisherman from "../assets/cartoon/fisherman.jpg";
-import Book from "../assets/cartoon/books.jpg";
-import Study from "../assets/cartoon/Study.jpg";
-import StudyBook from "../assets/cartoon/Suceed.jpg";
+import Fisherman from "../assets/cartoon/close-up.jpg";
 
 const MyCarousal = () => {
   return (
@@ -19,11 +16,11 @@ const MyCarousal = () => {
           <CarouselItem className="md:basis-1/3">
             <div>
               <img src={Fisherman} alt="" />
-              <div className="pt-5  pb-20 px-10 text-center">
-                <h2 className="text-4xl font-semibold pt-2 pb-2 text-black ">
+              <div className="pt-5 pb-20 px-10">
+                <h2 className="text-2xl font-semibold pt-2 pb-2 text-blue-400 ">
                   Learn
                 </h2>
-                <p className="text-[20px]">
+                <p className="text-[18px]">
                   Children learn through hands-on experiences that spark
                   curiosity and creativity.
                 </p>
@@ -32,9 +29,9 @@ const MyCarousal = () => {
           </CarouselItem>
           <CarouselItem className="md:basis-1/3">
             <div>
-              <img src={Book} alt="" />
-              <div className="pt-5  pb-20 px-10 text-center">
-                <h2 className="text-4xl font-semibold pt-2 pb-2 text-black ">
+              <img src={Fisherman} alt="" />
+              <div className="pt-5  pb-20 px-10">
+                <h2 className="text-2xl font-semibold pt-2 pb-2 text-blue-400">
                   Discovery
                 </h2>
                 <p className="text-[20px]">
@@ -46,9 +43,9 @@ const MyCarousal = () => {
           </CarouselItem>
           <CarouselItem className="md:basis-1/3">
             <div>
-              <img src={Study} alt="" />
-              <div className="pt-5  pb-20 px-10 text-center">
-                <h2 className="text-4xl font-semibold pt-2 pb-2 text-black ">
+              <img src={Fisherman} alt="" />
+              <div className="pt-5  pb-20 px-10">
+                <h2 className="text-2xl font-semibold pt-2 pb-2 text-blue-400">
                  Education
                 </h2>
                 <p className="text-[20px]">
@@ -60,9 +57,9 @@ const MyCarousal = () => {
           </CarouselItem>
           <CarouselItem className="md:basis-1/3">
             <div>
-              <img src={StudyBook} alt="" />
-              <div className="pt-5  pb-20 px-10 text-center">
-                <h2 className="text-4xl font-semibold pt-2 pb-2 text-black ">
+              <img src={Fisherman} alt="" />
+              <div className="pt-5  pb-20 px-10">
+                <h2 className="text-2xl font-semibold pt-2 pb-2 text-blue-400">
                   Knowledge
                 </h2>
                 <p className="text-[20px]">
