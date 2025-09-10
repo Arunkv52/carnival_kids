@@ -5,7 +5,11 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import Footer from "../components/Footer";
 import MyCarousal from "../components/MyCarousal";
 import ScrollVelocity from "../components/ScrollVelocity";
-import EducationImg from "../assets/cartoon/kids-bg.webp";
+import EducationImg from "../assets/8.webp";
+import EducationImg1 from "../assets/6.webp";
+import EducationImg2 from "../assets/4.webp";
+
+
 import PopupForm from "../components/PopupForm";
 import Fun3d from "../assets/cartoon/outer-space.jpg";
 import NavMenu from "../components/NavMenu";
@@ -26,7 +30,7 @@ const Home = () => {
       {/* Start */}
       <div className="bg-[#E0F7FA] md:px-50 px-5 py-20 ">
         <div className="md:flex justify-evenly items-end gap-5">
-          <h1 className="text-black md:text-6xl text-2xl font-semibold">
+          <h1 className="text-black md:text-6xl text-4xl font-semibold pb-2">
             Welcome to Carnival Kids <span className="text-black/60">Montessori</span>
           </h1>
           <div>
@@ -47,7 +51,7 @@ const Home = () => {
           <div>
             <h1 className="md:text-5xl text-3xl md:pb-10 pb-0 leading-14 ">
               We Believe{" "}
-              <span className="bg-[#54b1e3]">Every Child</span> is Unique{" "}
+              <span className="bg-[#cee4fd]">Every Child</span> is Unique{" "}
               <span className="bg-[#fefa9c]">and Learns</span>
             </h1>
           </div>
@@ -68,7 +72,7 @@ const Home = () => {
       </div>
 
       {/* Explore our programs */}
-      <div className="explore md:px-10 px-5 md:py-0 py-20 mb-15">
+      <div className="explore md:px-10 px-5 md:py-0 py-10 mb-5">
         <div className="explore-carousal md:py-0 py-0 px-0.5">
           <MyCarousal />
         </div>
@@ -76,20 +80,20 @@ const Home = () => {
 
 
       {/* Content */}
-      <div className="md:pt-0 md:pb-30 pb-0 py-20">
-        <div className="md:px-10 px-5">
-          <div className="px-100">
+      <div className="md:pt-10 pt-0 md:pb-30 pb-0 md:py-20 py-0">
+        <div className="md:px-10 px-0">
+          <div className="md:px-100 px-10">
             <h4 className="md:text-6xl text-4xl  md:pb-20 pb-3">
               At <span className="text-blue-400">Carnival Kids,</span>  we don’t just teach – we inspire a love for
-              <span className="text-yellow-300"> learning!</span>
+              <span className="text-[#ffaab8]"> learning!</span>
             </h4>
           </div>
         </div>
-        <div className="boxy md:px-10 md:py-0 py-10 md:flex justify-between items-center gap-5">
-          <div className="relative bg-[#5cc5fd] py-15 px-10 md:m-0 m-3 text-center text-white rounded-full">
-            <span className="absolute top-[-20px] left-[30px] w-[80px] h-[80px] bg-[#5cc5fd] rounded-full"></span>
-            <span className="absolute top-[-30px] right-[40px] w-[100px] h-[100px] bg-[#5cc5fd] rounded-full"></span>
-            <span className="absolute bottom-[-25px] left-[60px] w-[90px] h-[90px] bg-[#5cc5fd] rounded-full"></span>
+        <div className="boxy md:px-10 md:py-0 py-10 md:flex md:flex-row flex flex-col justify-between items-center md:gap-5 gap-20">
+          <div className="relative bg-[#f4ff9f] py-15 px-10 md:m-0 m-10 text-center text-black rounded-full">
+            <span className="absolute top-[-20px] left-[30px] w-[80px] h-[80px] bg-[#f4ff9f] rounded-full"></span>
+            <span className="absolute top-[-30px] right-[40px] w-[100px] h-[100px] bg-[#f4ff9f] rounded-full"></span>
+            <span className="absolute bottom-[-25px] left-[60px] w-[90px] h-[90px] bg-[#f4ff9f] rounded-full"></span>
             <h2 className="md:text-3xl text-4xl pt-5">Explore the World</h2>
             <p className="text-[18px] py-4">
               Through curiosity, play, and creativity, children discover
@@ -98,27 +102,27 @@ const Home = () => {
           </div>
 
 
-          <div className="relative bg-[#5cc5fd] py-15 px-10 md:m-0 m-3 text-center text-white rounded-full">
-            <span className="absolute top-[-20px] left-[30px] w-[80px] h-[80px] bg-[#5cc5fd] rounded-full"></span>
-            <span className="absolute top-[-30px] right-[40px] w-[100px] h-[100px] bg-[#5cc5fd] rounded-full"></span>
-            <span className="absolute bottom-[-25px] left-[60px] w-[90px] h-[90px] bg-[#5cc5fd] rounded-full"></span>
-            <h2 className="text-white md:text-3xl text-4xl  pt-5 ">
+          <div className="relative bg-[#f4ff9f] py-15 px-10 md:m-0 m-10 text-center text-black rounded-full">
+            <span className="absolute top-[-20px] left-[30px] w-[80px] h-[80px] bg-[#f4ff9f] rounded-full"></span>
+            <span className="absolute top-[-30px] right-[40px] w-[100px] h-[100px] bg-[#f4ff9f] rounded-full"></span>
+            <span className="absolute bottom-[-25px] left-[60px] w-[90px] h-[90px] bg-[#f4ff9f] rounded-full"></span>
+            <h2 className="text-black md:text-3xl text-4xl  pt-5 ">
               Grow with Confidence
             </h2>
-            <p className="text-white text-[18px] py-4">
+            <p className="text-black text-[18px] py-4">
               Nurturing every child to become confident, independent, and
               compassionate individuals.
             </p>
           </div>
-          <div className="relative bg-[#5cc5fd] py-15 px-10 md:m-0 m-3 text-center text-white rounded-full">
-            <span className="absolute top-[-20px] left-[30px] w-[80px] h-[80px] bg-[#5cc5fd] rounded-full"></span>
-            <span className="absolute top-[-30px] right-[40px] w-[100px] h-[100px] bg-[#5cc5fd] rounded-full"></span>
-            <span className="absolute bottom-[-25px] left-[60px] w-[90px] h-[90px] bg-[#5cc5fd] rounded-full"></span>
+          <div className="relative bg-[#f4ff9f] py-15 px-10 md:m-0 m-10 text-center text-black rounded-full">
+            <span className="absolute top-[-20px] left-[30px] w-[80px] h-[80px] bg-[#f4ff9f] rounded-full"></span>
+            <span className="absolute top-[-30px] right-[40px] w-[100px] h-[100px] bg-[#f4ff9f] rounded-full"></span>
+            <span className="absolute bottom-[-25px] left-[60px] w-[90px] h-[90px] bg-[#f4ff9f] rounded-full"></span>
 
-            <h2 className="text-white md:text-3xl text-4xl pt-5 ">
+            <h2 className="text-black md:text-3xl text-4xl pt-5 ">
               Learn at Own Pace
             </h2>
-            <p className="text-white text-[18px] py-4">
+            <p className="text-black text-[18px] py-4">
               Hands-on Montessori methods encourage independence and
               personalized learning.
             </p>
@@ -127,27 +131,65 @@ const Home = () => {
       </div>
 
 
-      {/* scroll item */}
-      <div className="scr-bg flex justify-start items-start gap-3 bg-[#d7f7fa]">
-        <div className="w-full py-20 px-10">
-          <h4 className="text-black text-5xl font-normal text-center">Admission <span className="text-blue-500 font-semibold">Open</span></h4>
-          <div className="flex justify-start gap-5 py-5">
-            <div>
-              <img src={EducationImg} alt="" className="rounded-[10px] shadow-2xl" />
-              <p className="text-[20px] py-3 font-semibold">Age 3 to 6 years</p>
+      {/* timeline item */}
+      <div className="bg-[#f3f0f0] text-black pt-20 pb-50 relative">
+       <h4 className="text-black text-5xl font-normal text-center py-10">Admission <span className="text-blue-500 font-semibold">Open</span></h4>
+        {/* SVG Wave Path */}
+        <svg
+          viewBox="0 0 1000 400"
+          className="absolute top-0 left-0 w-full h-full"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M 0 200 Q 250 100 500 200 T 1000 200"
+            fill="none"
+            stroke="#f4ff9f"
+            strokeWidth="4"
+          />
+        </svg>
+
+        {/* Timeline Content */}
+        <div className="relative flex flex-col items-center">
+          <div className="md:flex justify-evenly items-center gap-30">
+            {/* Item 1 */}
+            <div className="flex flex-col items-center gap-8 relative md:-top-20 top-0">
+              <div className="w-[250px] h-[250px] rounded-full border-2 border-[#f4ff9f] overflow-hidden shadow-xl">
+                <img src={EducationImg} alt="Age 3-6" className="w-full h-full object-cover" />
+              </div>
+              <div className="text-black">
+                <p className="text-2xl">
+                  Age 3 to 6 years
+                </p>
+              </div>
             </div>
-            <div>
-              <img src={EducationImg} alt="" className="rounded-[10px] shadow-2xl" />
-              <p className="text-[20px] py-3 font-semibold">Mont 1 mont 2 Mont 3</p>
+
+            {/* Item 2 */}
+            <div className="flex flex-col items-center gap-8 relative md:top-0 top-10">
+              <div className="w-[250px] h-[250px] rounded-full border-2 border-[#f4ff9f] overflow-hidden shadow-xl">
+                <img src={EducationImg1} alt="Age 3-6" className="w-full h-full object-cover" />
+              </div>
+              <div className="text-black">
+                <p className="text-2xl">
+                  Mont 1 Mont 2 Mont 3
+                </p>
+              </div>
             </div>
-            <div>
-              <img src={EducationImg} alt="" className="rounded-[10px] shadow-2xl" />
-              <p className="text-[20px] py-3 font-semibold">Explore Campus</p>
+
+            {/* Item 3 */}
+            <div className="flex flex-col items-center gap-8 relative top-20">
+              <div className="w-[250px] h-[250px] rounded-full border-2 border-[#f4ff9f] overflow-hidden shadow-xl">
+                <img src={EducationImg2} alt="Age 3-6" className="w-full h-full object-cover" />
+              </div>
+              <div className="text-black">
+                <p className="text-2xl">
+                  Explore Campus
+                </p>
+              </div>
             </div>
           </div>
+
         </div>
       </div>
-
 
       {/* black box */}
       <div className="black-box md:px-10 px-5 bg-[#fdfdfd]">
@@ -179,9 +221,9 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="py-10 md:px-50 bg-[#f9f4e8]">
-        <h3 className="text-black md:text-4xl text-4xl py-5 text-center pb-10">Programs Information</h3>
-        <div className="flex justify-around items-start gap-10">
+      <div className="py-10 md:px-100 px-0 bg-[#f9f4e8]">
+        <h3 className="text-black md:text-5xl text-4xl py-5 md:text-center pb-10 md:px-0 px-5">Programs <span className="text-[#11B6C6]">Information</span> </h3>
+        <div className="md:flex md:flex-row justify-around items-start gap-10 flex flex-col px-5 md:px-0">
           <div className="">
             <div>
               <h5 className="text-[20px] font-semibold py-3">
@@ -204,17 +246,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div>
-            <div>
-              <h5 className="text-[20px]  font-semibold py-3">
-                Parents
-              </h5>
-              <p className="text-[18px] mb-5">
-               Our Parent Representatives organise regular fund raising and social events.
-              </p>
-              <button className="border-2 rounded-[50px] px-8 py-2 hover:border-none hover:bg-blue-400 cursor-pointer">Visit</button>
-            </div>
-          </div>
+         
         </div>
 
       </div>

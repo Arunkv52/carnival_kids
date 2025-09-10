@@ -7,6 +7,11 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import Fisherman from "../assets/cartoon/close-up.jpg";
+import Img01 from '../assets/knowldge.jpg'
+import Img02 from '../assets/Learning.jpg'
+import Img03 from '../assets/Education.jpg'
+
+
 
 const MyCarousal = () => {
   return (
@@ -29,7 +34,7 @@ const MyCarousal = () => {
           </CarouselItem>
           <CarouselItem className="md:basis-1/3">
             <div>
-              <img src={Fisherman} alt="" />
+              <img src={Img01} alt="" />
               <div className="pt-5  pb-20 px-10">
                 <h2 className="text-2xl font-semibold pt-2 pb-2 text-blue-400">
                   Discovery
@@ -43,7 +48,7 @@ const MyCarousal = () => {
           </CarouselItem>
           <CarouselItem className="md:basis-1/3">
             <div>
-              <img src={Fisherman} alt="" />
+              <img src={Img02} alt="" />
               <div className="pt-5  pb-20 px-10">
                 <h2 className="text-2xl font-semibold pt-2 pb-2 text-blue-400">
                  Education
@@ -57,7 +62,7 @@ const MyCarousal = () => {
           </CarouselItem>
           <CarouselItem className="md:basis-1/3">
             <div>
-              <img src={Fisherman} alt="" />
+              <img src={Img03} alt="" />
               <div className="pt-5  pb-20 px-10">
                 <h2 className="text-2xl font-semibold pt-2 pb-2 text-blue-400">
                   Knowledge
