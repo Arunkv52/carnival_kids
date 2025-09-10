@@ -80,6 +80,17 @@ const PopupForm = () => {
                 />
               </div>
               <div className="py-2">
+                <label htmlFor="tel" className="text-white"></label>
+                <input
+                  type="tel"
+                  name="name"
+                  id=""
+                  placeholder="Alternative phone number"
+                  required
+                  className="bg-gray-700 w-full py-2 px-3 text-white border-0 outline-0"
+                />
+              </div>
+              <div className="py-2">
                 <label htmlFor="email" className="text-white"></label>
                 <input
                   type="email"
@@ -110,6 +121,13 @@ const PopupForm = () => {
                 </select>
               </div>
               <div className="py-2">
+                <label htmlFor="date" className="text-white"></label>
+
+                <input type="text" name="text" id="" placeholder="Select date of birth"
+                  required
+                  className="bg-gray-700 w-full py-2 px-3 text-white border-0 outline-0" />
+              </div>
+              <div className="py-2">
                 <label htmlFor="text" className="text-white"></label>
                 <select
                   name="grade"
@@ -123,14 +141,15 @@ const PopupForm = () => {
                   <option value="Coimbatore">Coimbatore</option>
                 </select>
               </div>
-              <div className="py-4">
-                <button
-                  type="submit"
-                  className="bg-black border-none text-white font-bold px-8 py-3 hover:bg-white hover:text-black hover:cursor-pointer"
-                >
-                  Submit
-                </button>
-              </div>
+          
+              <div className="py-2">
+              <button
+                type="submit"
+                className="bg-[#51a2ff] border-none text-white font-bold px-8 py-3 hover:bg-black hover:text-white hover:cursor-pointer w-1/2"
+              >
+                Send Enquiry
+              </button>
+            </div>
             </form>
           </div>
         )}

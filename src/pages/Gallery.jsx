@@ -10,7 +10,6 @@ const Gallery = () => {
   return (
     <>
       <PopupForm />
-      <NavMenu />
       <div
         className="abt-main w-full"
         style={{

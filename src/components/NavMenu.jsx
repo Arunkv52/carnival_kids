@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Menu } from "lucide-react";
 import { X } from "lucide-react";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/carnival-logo-next.png";
 import { ChevronDown } from "lucide-react";
 import { Link } from "react-router";
 import { motion } from "framer-motion";
@@ -15,22 +15,16 @@ const NavMenu = () => {
   };
 
   return (
-    <nav className="px-0 py-0 absolute top-0 w-[100%]">
-      <div className="flex items-start justify-between font-normal w-full py-2 px-5 text-white relative">
+    <nav className="px-0 py-0 w-[100%] bg-white">
+      <div className="flex justify-between items-center font-normal w-full py-2 px-5 text-black relative">
         {/* Logo */}
-        <motion.div
+        <div
           className="logo"
-          initial={{ y: 800, opacity: 0 }} // start position (down)
-          animate={{ y: 0, opacity: 1 }} // end position (normal)
-           transition={{
-        duration: 7,                  // longer duration for smoothness
-        ease: [0.25, 0.1, 0.25, 1]      // cubic-bezier ease (soft smooth)
-      }}
         >
           <Link to={"/"}>
-            <img src={Logo} alt="Logo" className="md:w-[250px] w-[100px]" />
+            <img src={Logo} alt="Logo" className="md:w-[250px] w-[200px]" />
           </Link>
-        </motion.div>
+        </div>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex justify-start gap-8 text-[20px] hover:cursor-pointer">
@@ -55,13 +49,13 @@ const NavMenu = () => {
 
           {/* Curriculum */}
           <Link
-            to={"/curriculam"}
+            to={"/curriculum"}
             className="relative cursor-pointer 
                after:absolute after:left-0 after:-bottom-1 
                after:h-[2px] after:w-0 after:bg-red-600
                after:transition-all after:duration-300 hover:after:w-full"
           >
-            Curriculam
+            curriculum
           </Link>
 
           <Link
@@ -113,7 +107,7 @@ const NavMenu = () => {
               <Link to={"/about"} className="hover:underline">
                 About
               </Link>
-              <Link to={"/curriculam"}>Curriculum</Link>
+              <Link to={"/curriculum"}>Curriculum</Link>
 
               <Link to={"/blog"} className="hover:underline">
                 Blog

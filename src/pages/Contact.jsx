@@ -3,6 +3,7 @@ import ContactBG from "../assets/14.jpg";
 import NavMenu from "../components/NavMenu";
 import Footer from "../components/Footer";
 import PopupForm from "../components/PopupForm";
+import { RiFacebookBoxFill, RiInstagramFill } from "react-icons/ri";
 
 const Contact = () => {
   return (
@@ -24,24 +25,37 @@ const Contact = () => {
 
       <div className="form-place md:px-10 px-5 py-20 md:flex justify-around">
         {/* Contact Info */}
-        <div className="md:w-1/2">
+        <div className="md:w-1/2 w-full md:pb-0 pb-20">
           <h2 className="md:text-4xl text-2xl">
             At Carnival Kids Montessori, we don’t just prepare children for
             school – we prepare them for life!
           </h2>
           <ul className="py-10">
             <li className="md:text-[20px] text-[20px] md:py-1 py-1">
-              <span className="font-semibold text-black/60">Mobile :</span> +91
+              <span className="font-semibold text-[#11B6C6]">Mobile :</span> +91
               98402 22744
             </li>
             <li className="md:text-[20px] text-[20px] md:py-1 py-1">
-              <span className="font-semibold text-black/60">Email :</span>{" "}
-              vidhyatmt@gmail.com
+              <span className="font-semibold text-[#11B6C6]">Email :</span>{" "}
+             info@carnivalkidsmontessori.com
             </li>
             <li className="md:text-[20px] text-[20px] md:py-1 py-1">
-              <span className="font-semibold text-black/60">Address :</span> No
-              9, Rajalakshmi Nagar, Subramaniam palayam, <br /> GN Mills,
+              <span className="font-semibold text-[#11B6C6]">Address :</span> No
+              9, Rajalakshmi Nagar, <br /> Subramaniam palayam, <br /> GN Mills, <br />
               Coimbatore – 641029
+            </li>
+          </ul>
+          <ul className="text-[#11B6C6] text-[20px] ">
+            <li className="hover:text-[#000000] cursor-pointer pb-2">
+              <a href="https://www.facebook.com/people/Carnival-Kids-Montessori/100057778115140/" className="md:flex flex justify-start items-center gap-3">
+                <RiFacebookBoxFill/>
+                Facebook
+              </a>
+            </li>
+            <li className="hover:text-[#000000] cursor-pointer">
+              <a href="https://www.instagram.com/carnival_kids_montessori/" className="md:flex flex justify-start items-center gap-3">
+                <RiInstagramFill />Instagram
+              </a>
             </li>
           </ul>
         </div>
@@ -84,6 +98,13 @@ const Contact = () => {
                 <option value="daughter">Daughter</option>
               </select>
             </div>
+            <div className="py-2">
+              <label htmlFor="date" className="text-white"></label>
+
+              <input type="text" name="text" id="" placeholder="Select date of birth"
+                required
+                className="bg-black w-full md:py-2 py-4 px-3 text-white border-0 outline-0" />
+            </div>
 
 
             <div className="py-2">
@@ -93,6 +114,17 @@ const Contact = () => {
                 name="name"
                 id=""
                 placeholder="Enter phone number"
+                required
+                className="bg-black w-full md:py-2 py-4 px-3 text-white border-0 outline-0"
+              />
+            </div>
+            <div className="py-2">
+              <label htmlFor="tel" className="text-white"></label>
+              <input
+                type="tel"
+                name="name"
+                id=""
+                placeholder="Alternative phone number"
                 required
                 className="bg-black w-full md:py-2 py-4 px-3 text-white border-0 outline-0"
               />
@@ -136,7 +168,7 @@ const Contact = () => {
                 required
               >
                 <option value="" selected>
-                  Select Centre
+                  Select Branch
                 </option>
                 <option value="Coimbatore">Coimbatore</option>
               </select>
@@ -144,7 +176,7 @@ const Contact = () => {
             <div className="py-4">
               <button
                 type="submit"
-                className="bg-red-600 border-none text-white font-bold px-8 py-3 hover:bg-black hover:text-white hover:cursor-pointer w-1/2"
+                className="bg-[#51a2ff] border-none text-white font-bold px-8 py-3 hover:bg-black hover:text-white hover:cursor-pointer w-1/2"
               >
                 Send Enquiry
               </button>

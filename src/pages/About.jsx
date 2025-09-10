@@ -29,7 +29,7 @@ const About = () => {
             learn through   <br /> hands-on experiences, <br /> independence, and play.
           </h5>
         </div>
-        <div className="md:w-1/2 w-full md:py-0 py-3 md:text-5xl text-4xl font-bold uppercase border-l-[30px] border-l-blue-300">
+        <div className="md:w-1/2 w-full md:py-0 py-3 md:text-5xl text-4xl font-bold uppercase border-l-[30px] border-l-[#F7F2E9]">
           <div className="relative -left-4">
             <p>Responsibility</p>
             <p>Effort</p>
@@ -45,7 +45,7 @@ const About = () => {
           <img src={abtImage} alt=""/>
         </div>
         <div>
-          <p className="md:text-3xl text-2xl px-5 md:py-0 py-10">
+          <p className="md:text-2xl text-2xl px-5 md:py-0 py-10">
             Welcome to Carnival Kids Montessori School, where learning is not
             just about books, but about discovering the world through curiosity
             and creativity. Located in GN Mills, Coimbatore, we provide a safe
@@ -56,7 +56,7 @@ const About = () => {
       </div>
 
       {/* abt us */}
-      <div className="md:flex justify-between items-start gap-10 md:px-30 px-5 py-20 bg-[#f6ddee]">
+      <div className="md:flex justify-between items-start gap-10 md:px-30 px-5 py-20 bg-[#F7F2E9]">
         <div className="abt-left md:w-1/2 w-full">
           <motion.svg
             width="100"
@@ -137,6 +137,10 @@ const About = () => {
             AMI Certified Montessori Adult
           </h5>
           <img src={Ami} alt="" className="w-[150px] pt-2" />
+          <div className="py-2">
+            <p className="py-2">“Enroll today and unlock a world of knowledge with IMF School’s <br /> trusted registration process.”</p>
+            <a href="https://montessori-india.org/flagship-schools/" className="text-[#11B6C6]">Link</a>
+          </div>
         </div>
       </div>
 

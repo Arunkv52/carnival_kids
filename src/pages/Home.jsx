@@ -20,6 +20,10 @@ const Home = () => {
   const { scrollYProgress } = useScroll();
   // Transform scroll progress (0-1) to width percentage (20% → 100%)
   const width = useTransform(scrollYProgress, [0, 1], ["60%", "100%"]);
+
+  // Map scroll progress (0 to 1) → y position
+  // Example: at 0 scroll, y = 100px, at full scroll, y = 0
+  const y = useTransform(scrollYProgress, [0, 0.1], [550, 0]);
   return (
     <>
 
@@ -27,8 +31,17 @@ const Home = () => {
       <div className="ban-start">
 
       </div>
+      <motion.div
+        style={{ y }}
+        className="fixed left-0 top-0 w-full bg-white shadow-md z-1"
+      >
+        <NavMenu />
+      </motion.div>
+
+
+
       {/* Start */}
-      <div className="bg-[#E0F7FA] md:px-50 px-5 py-20 ">
+      <div className="bg-[#E0F7FA] md:px-50 px-5 md:py-40 py-30">
         <div className="md:flex justify-evenly items-end gap-5">
           <h1 className="text-black md:text-6xl text-4xl font-semibold pb-2">
             Welcome to Carnival Kids <span className="text-black/60">Montessori</span>
@@ -133,7 +146,7 @@ const Home = () => {
 
       {/* timeline item */}
       <div className="bg-[#f3f0f0] text-black pt-20 pb-50 relative">
-       <h4 className="text-black text-5xl font-normal text-center py-10">Admission <span className="text-blue-500 font-semibold">Open</span></h4>
+        <h4 className="text-black text-5xl font-normal text-center py-10">Admission <span className="text-blue-500 font-semibold">Open</span></h4>
         {/* SVG Wave Path */}
         <svg
           viewBox="0 0 1000 400"
@@ -158,7 +171,7 @@ const Home = () => {
               </div>
               <div className="text-black">
                 <p className="text-2xl">
-                  Age 3 to 6 years
+                  For Age 3 to 6 years
                 </p>
               </div>
             </div>
@@ -246,7 +259,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-         
+
         </div>
 
       </div>
