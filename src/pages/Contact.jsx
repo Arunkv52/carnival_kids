@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ContactBG from "../assets/14.jpg";
 import NavMenu from "../components/NavMenu";
 import Footer from "../components/Footer";
@@ -6,6 +6,38 @@ import PopupForm from "../components/PopupForm";
 import { RiFacebookBoxFill, RiInstagramFill } from "react-icons/ri";
 
 const Contact = () => {
+
+  const [formData, setFormData] = useState(
+    {
+      parentName: "",
+      childName: "",
+      enquiry: "",
+      dob: "",
+      phone: "",
+      altPhone: "",
+      email: "",
+      age: "",
+      branch: "",
+    }
+  );
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const res = await fetch("/api/enquiry", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
+    });
+
+    const data = await res.json();
+    alert(data.message);
+  };
+
   return (
     <>
       <PopupForm />
@@ -37,7 +69,7 @@ const Contact = () => {
             </li>
             <li className="md:text-[20px] text-[20px] md:py-1 py-1">
               <span className="font-semibold text-[#11B6C6]">Email :</span>{" "}
-             info@carnivalkidsmontessori.com
+              info@carnivalkidsmontessori.com
             </li>
             <li className="md:text-[20px] text-[20px] md:py-1 py-1">
               <span className="font-semibold text-[#11B6C6]">Address :</span> No
@@ -48,7 +80,7 @@ const Contact = () => {
           <ul className="text-[#11B6C6] text-[20px] ">
             <li className="hover:text-[#000000] cursor-pointer pb-2">
               <a href="https://www.facebook.com/people/Carnival-Kids-Montessori/100057778115140/" className="md:flex flex justify-start items-center gap-3">
-                <RiFacebookBoxFill/>
+                <RiFacebookBoxFill />
                 Facebook
               </a>
             </li>
@@ -61,35 +93,38 @@ const Contact = () => {
         </div>
         {/* Contact Form */}
         <div className="md:w-1/2 w-full">
-          <form action="" className="md:px-10 px-0 py-0 rounded-2xl">
+          <form onSubmit={handleSubmit} className="md:px-10 px-0 py-0 rounded-2xl">
             <div className="py-2">
-              <label htmlFor="name" className="text-white"></label>
+              <label htmlFor="parentName" className="text-white"></label>
               <input
                 type="text"
-                name="name"
+                name="parentName"
                 id=""
                 placeholder="Enter parent name"
                 required
-                className="bg-black w-full md:py-2 py-4 px-3 text-white border-0 outline-0"
+                onChange={handleChange}
+                className="bg-[#f1f1f1] w-full md:py-2 py-4 px-3 text-black border-0 outline-0"
               />
             </div>
             <div className="py-2">
-              <label htmlFor="name" className="text-white"></label>
+              <label htmlFor="childName" className="text-white"></label>
               <input
                 type="text"
-                name="name"
+                name="childName"
                 id=""
                 placeholder="Enter child name"
                 required
-                className="bg-black w-full md:py-2 py-4 px-3 text-white border-0 outline-0"
+                onChange={handleChange}
+                className="bg-[#f1f1f1] w-full md:py-2 py-4 px-3 text-black border-0 outline-0"
               />
             </div>
             <div className="py-2">
               <select
                 name="enquiry"
                 id=""
-                className="bg-black w-full md:py-2 py-4 px-3 text-white border-0 outline-0"
+                className="bg-[#f1f1f1] w-full md:py-2 py-4 px-3 text-black border-0 outline-0"
                 required
+                onChange={handleChange}
               >
                 <option value="" selected>
                   Enquiry for son / daughter
@@ -99,55 +134,59 @@ const Contact = () => {
               </select>
             </div>
             <div className="py-2">
-              <label htmlFor="date" className="text-white"></label>
-
-              <input type="text" name="text" id="" placeholder="Select date of birth"
+              <label htmlFor="dob" className="text-white"></label>
+              <input type="date" name="dob" id="" placeholder="Select date of birth"
                 required
-                className="bg-black w-full md:py-2 py-4 px-3 text-white border-0 outline-0" />
+                onChange={handleChange}
+                className="bg-[#f1f1f1] w-full md:py-2 py-4 px-3 text-black border-0 outline-0" />
             </div>
 
 
             <div className="py-2">
-              <label htmlFor="tel" className="text-white"></label>
+              <label htmlFor="phone" className="text-white"></label>
               <input
                 type="tel"
-                name="name"
+                name="phone"
                 id=""
                 placeholder="Enter phone number"
                 required
-                className="bg-black w-full md:py-2 py-4 px-3 text-white border-0 outline-0"
+                onChange={handleChange}
+                className="bg-[#f1f1f1] w-full md:py-2 py-4 px-3 text-black border-0 outline-0"
               />
             </div>
             <div className="py-2">
-              <label htmlFor="tel" className="text-white"></label>
+              <label htmlFor="altPhone" className="text-white"></label>
               <input
                 type="tel"
-                name="name"
+                name="altPhone"
                 id=""
                 placeholder="Alternative phone number"
                 required
-                className="bg-black w-full md:py-2 py-4 px-3 text-white border-0 outline-0"
+                onChange={handleChange}
+                className="bg-[#f1f1f1] w-full md:py-2 py-4 px-3 text-black border-0 outline-0"
               />
             </div>
             <div className="py-2">
               <label htmlFor="email" className="text-white"></label>
               <input
                 type="email"
-                name="name"
+                name="email"
                 id=""
                 placeholder="Enter email address"
                 required
-                className="bg-black w-full md:py-2 py-4 px-3 text-white border-0 outline-0"
+                onChange={handleChange}
+                className="bg-[#f1f1f1] w-full md:py-2 py-4 px-3 text-black border-0 outline-0"
               />
             </div>
 
             <div className="py-2">
-              <label htmlFor="text" className="text-white"></label>
+              <label htmlFor="age" className="text-white"></label>
               <select
-                name="grade"
-                id=""
-                className="bg-black w-full md:py-2 py-4 px-3 text-white border-0 outline-0"
+                name="age"
+                id="age"
+                className="bg-[#f1f1f1] w-full md:py-2 py-4 px-3 text-black border-0 outline-0"
                 required
+                onChange={handleChange}
               >
                 <option value="" selected>
                   Select Child Age
@@ -160,12 +199,13 @@ const Contact = () => {
               </select>
             </div>
             <div className="py-2">
-              <label htmlFor="text" className="text-white"></label>
+              <label htmlFor="branch" className="text-white"></label>
               <select
-                name="grade"
+                name="branch"
                 id=""
-                className="bg-black w-full md:py-2 py-4 px-3 text-white border-0 outline-0"
+                className="bg-[#f1f1f1] w-full md:py-2 py-4 px-3 text-black border-0 outline-0"
                 required
+                onChange={handleChange}
               >
                 <option value="" selected>
                   Select Branch

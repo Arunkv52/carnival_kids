@@ -43,7 +43,7 @@ const Home = () => {
       {/* Start */}
       <div className="bg-[#E0F7FA] md:px-50 px-5 md:py-40 py-30">
         <div className="md:flex justify-evenly items-end gap-5">
-          <h1 className="text-black md:text-6xl text-4xl font-semibold pb-2">
+          <h1 className="text-black md:text-6xl text-4xl pb-2 font-[Fredoka]">
             Welcome to Carnival Kids <span className="text-black/60">Montessori</span>
           </h1>
           <div>
@@ -169,9 +169,10 @@ const Home = () => {
               <div className="w-[250px] h-[250px] rounded-full border-2 border-[#f4ff9f] overflow-hidden shadow-xl">
                 <img src={EducationImg} alt="Age 3-6" className="w-full h-full object-cover" />
               </div>
-              <div className="text-black">
-                <p className="text-2xl">
-                  For Age 3 to 6 years
+              <div className="text-black text-center">
+                <p className="text-2xl font-extrabold text-[#2b7fff]">
+                  Pre-Mont <br />
+                  <span className="text-black">2 to 3 Years</span>
                 </p>
               </div>
             </div>
@@ -181,9 +182,10 @@ const Home = () => {
               <div className="w-[250px] h-[250px] rounded-full border-2 border-[#f4ff9f] overflow-hidden shadow-xl">
                 <img src={EducationImg1} alt="Age 3-6" className="w-full h-full object-cover" />
               </div>
-              <div className="text-black">
-                <p className="text-2xl">
-                  Mont 1 Mont 2 Mont 3
+              <div className="text-black text-center">
+                <p className="text-2xl font-extrabold text-[#2b7fff]">
+                  Mont 1 <br />
+                  <span className="text-black">3 to 4 Years</span>
                 </p>
               </div>
             </div>
@@ -193,9 +195,22 @@ const Home = () => {
               <div className="w-[250px] h-[250px] rounded-full border-2 border-[#f4ff9f] overflow-hidden shadow-xl">
                 <img src={EducationImg2} alt="Age 3-6" className="w-full h-full object-cover" />
               </div>
-              <div className="text-black">
-                <p className="text-2xl">
-                  Explore Campus
+              <div className="text-black text-center">
+                <p className="text-2xl font-extrabold text-[#2b7fff]">
+                  Mont 2 <br />
+                  <span className="text-black">4 to 5 Years</span>
+                </p>
+              </div>
+            </div>
+             {/* Item 4 */}
+            <div className="flex flex-col items-center gap-8 relative md:top-40 top-20">
+              <div className="w-[250px] h-[250px] rounded-full border-2 border-[#f4ff9f] overflow-hidden shadow-xl">
+                <img src={EducationImg2} alt="Age 3-6" className="w-full h-full object-cover" />
+              </div>
+              <div className="text-black text-center">
+                <p className="text-2xl font-extrabold text-[#2b7fff]">
+                  Mont 3 <br />
+                  <span className="text-black">5 to 6 Years</span>
                 </p>
               </div>
             </div>

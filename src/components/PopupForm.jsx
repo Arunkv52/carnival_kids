@@ -17,48 +17,38 @@ const PopupForm = () => {
       <div className="some-msg fixed md:w-1/3 w-full md:bottom-5 bottom-0 z-10 md:left-20 left-0">
         {open && (
           <div className="bg-[#0f2734]  h-auto">
-            <form action="" className="md:px-10 px-5 md:py-4 py-0 rounded-2xl">
-              <div
-                className=" flex justify-end"
-                onClick={() => {
-                  setOpen(!open);
-                }}
-              >
-                <IoIosCloseCircle className="text-2xl hover:opacity-50 hover:cursor-pointer text-white" />
-              </div>
-
-              <h1 className="text-left md:text-4xl text-4xl text-white font-semibold py-2">
-                Block your child seat of <br /> Carnival Kids
-              </h1>
-
+            <form onSubmit={handleSubmit} className="md:px-10 px-0 py-0 rounded-2xl">
               <div className="py-2">
-                <label htmlFor="name" className="text-white"></label>
+                <label htmlFor="parentName" className="text-white"></label>
                 <input
                   type="text"
-                  name="name"
+                  name="parentName"
                   id=""
                   placeholder="Enter parent name"
                   required
-                  className="bg-gray-700 w-full py-2 px-3 text-white border-0 outline-0"
+                  onChange={handleChange}
+                  className="bg-[#f1f1f1] w-full md:py-2 py-4 px-3 text-black border-0 outline-0"
                 />
               </div>
               <div className="py-2">
-                <label htmlFor="name" className="text-white"></label>
+                <label htmlFor="childName" className="text-white"></label>
                 <input
                   type="text"
-                  name="name"
+                  name="childName"
                   id=""
                   placeholder="Enter child name"
                   required
-                  className="bg-gray-700 w-full py-2 px-3 text-white border-0 outline-0"
+                  onChange={handleChange}
+                  className="bg-[#f1f1f1] w-full md:py-2 py-4 px-3 text-black border-0 outline-0"
                 />
               </div>
               <div className="py-2">
                 <select
                   name="enquiry"
                   id=""
-                  className="bg-gray-700 w-full py-2 px-3 text-white border-0 outline-0"
+                  className="bg-[#f1f1f1] w-full md:py-2 py-4 px-3 text-black border-0 outline-0"
                   required
+                  onChange={handleChange}
                 >
                   <option value="" selected>
                     Enquiry for son / daughter
@@ -67,48 +57,60 @@ const PopupForm = () => {
                   <option value="daughter">Daughter</option>
                 </select>
               </div>
+              <div className="py-2">
+                <label htmlFor="dob" className="text-white"></label>
+                <input type="date" name="dob" id="" placeholder="Select date of birth"
+                  required
+                  onChange={handleChange}
+                  className="bg-[#f1f1f1] w-full md:py-2 py-4 px-3 text-black border-0 outline-0" />
+              </div>
+
 
               <div className="py-2">
-                <label htmlFor="tel" className="text-white"></label>
+                <label htmlFor="phone" className="text-white"></label>
                 <input
                   type="tel"
-                  name="name"
+                  name="phone"
                   id=""
                   placeholder="Enter phone number"
                   required
-                  className="bg-gray-700 w-full py-2 px-3 text-white border-0 outline-0"
+                  onChange={handleChange}
+                  className="bg-[#f1f1f1] w-full md:py-2 py-4 px-3 text-black border-0 outline-0"
                 />
               </div>
               <div className="py-2">
-                <label htmlFor="tel" className="text-white"></label>
+                <label htmlFor="altPhone" className="text-white"></label>
                 <input
                   type="tel"
-                  name="name"
+                  name="altPhone"
                   id=""
                   placeholder="Alternative phone number"
                   required
-                  className="bg-gray-700 w-full py-2 px-3 text-white border-0 outline-0"
+                  onChange={handleChange}
+                  className="bg-[#f1f1f1] w-full md:py-2 py-4 px-3 text-black border-0 outline-0"
                 />
               </div>
               <div className="py-2">
                 <label htmlFor="email" className="text-white"></label>
                 <input
                   type="email"
-                  name="name"
+                  name="email"
                   id=""
                   placeholder="Enter email address"
                   required
-                  className="bg-gray-700 w-full py-2 px-3 text-white border-0 outline-0"
+                  onChange={handleChange}
+                  className="bg-[#f1f1f1] w-full md:py-2 py-4 px-3 text-black border-0 outline-0"
                 />
               </div>
 
               <div className="py-2">
-                <label htmlFor="text" className="text-white"></label>
+                <label htmlFor="age" className="text-white"></label>
                 <select
-                  name="grade"
-                  id=""
-                  className="bg-gray-700 w-full py-2 px-3 text-white border-0 outline-0"
+                  name="age"
+                  id="age"
+                  className="bg-[#f1f1f1] w-full md:py-2 py-4 px-3 text-black border-0 outline-0"
                   required
+                  onChange={handleChange}
                 >
                   <option value="" selected>
                     Select Child Age
@@ -121,35 +123,28 @@ const PopupForm = () => {
                 </select>
               </div>
               <div className="py-2">
-                <label htmlFor="date" className="text-white"></label>
-
-                <input type="text" name="text" id="" placeholder="Select date of birth"
-                  required
-                  className="bg-gray-700 w-full py-2 px-3 text-white border-0 outline-0" />
-              </div>
-              <div className="py-2">
-                <label htmlFor="text" className="text-white"></label>
+                <label htmlFor="branch" className="text-white"></label>
                 <select
-                  name="grade"
+                  name="branch"
                   id=""
-                  className="bg-gray-700 w-full py-2 px-3 text-white border-0 outline-0"
+                  className="bg-[#f1f1f1] w-full md:py-2 py-4 px-3 text-black border-0 outline-0"
                   required
+                  onChange={handleChange}
                 >
                   <option value="" selected>
-                    Select Centre
+                    Select Branch
                   </option>
                   <option value="Coimbatore">Coimbatore</option>
                 </select>
               </div>
-          
-              <div className="py-2">
-              <button
-                type="submit"
-                className="bg-[#51a2ff] border-none text-white font-bold px-8 py-3 hover:bg-black hover:text-white hover:cursor-pointer w-1/2"
-              >
-                Send Enquiry
-              </button>
-            </div>
+              <div className="py-4">
+                <button
+                  type="submit"
+                  className="bg-[#51a2ff] border-none text-white font-bold px-8 py-3 hover:bg-black hover:text-white hover:cursor-pointer w-1/2"
+                >
+                  Send Enquiry
+                </button>
+              </div>
             </form>
           </div>
         )}
